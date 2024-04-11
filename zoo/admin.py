@@ -1,7 +1,27 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import *
 
-from .models import Animal
+admin.site.register(Species)
+admin.site.register(HealthCondition)
 
-admin.site.register(Animal)
+class AnimalInline(admin.TabularInline):
+    model = Animal
+    extra = 0
+
+@admin.register(Exhibit)
+class ExhibitAdmin(admin.ModelAdmin):
+    inlines = [AnimalInline]
+
+@admin.register(Animal)
+class AnimalAdmin(admin.ModelAdmin):
+    list_display = ('name', 'species', 'birth_date', 'death_date', 'exhibit')
+    list_filter = ('species', 'exhibit')
+
+@admin.register(Diagnosis)
+class DiagnosisAdmin(admin.ModelAdmin):
+    list_display = ('animal', 'health_condition', 'date', 'treatment_status')
+
+@admin.register(FeedingAppointment)
+class FeedingAppointmentAdmin(admin.ModelAdmin):
+    list_display = ('day', 'time')
