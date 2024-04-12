@@ -2,6 +2,7 @@ import calendar
 from datetime import datetime, time
 
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -86,7 +87,16 @@ class FeedingAppointment(models.Model):
     day = models.SmallIntegerField(choices=DAYS)
     time = models.TimeField(auto_now=False, auto_now_add=False)
     
-    animals = models.ManyToManyField(Animal)
+    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE, )
     
     def __str__(self) -> str:
-        return f'{calendar.day_name[self.day]} | {time.strftime(self.time, "%#I:%M %p")}'
+        return f'{self.exhibit} {calendar.day_name[self.day]} | {time.strftime(self.time, "%#I:%M %p")}'
+    
+class FeedingAction(models.Model):
+    time = models.TimeField()
+    
+    staff = models.ManyToManyField(User)
+    appointment = models.ForeignKey(FeedingAppointment, on_delete=models.CASCADE)
+    
+    def __str__(self) -> str:
+        return f'{self.appointment} | {time.strftime(self.time, "%#I:%M %p")}'

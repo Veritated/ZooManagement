@@ -10,11 +10,8 @@ def user_logout(request: HttpRequest) -> HttpResponse:
 def animal_list(request: HttpRequest) -> HttpResponse:
     pass
 
-def animal_details(request: HttpRequest) -> HttpResponse:
-    pass
-
 def exhibit_list(request: HttpRequest) -> HttpResponse:
     pass
 
-def exhibit_details(request: HttpRequest) -> HttpResponse:
+def exhibit_details(request: HttpRequest, id: int) -> HttpResponse:
     pass

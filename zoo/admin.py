@@ -24,4 +24,8 @@ class DiagnosisAdmin(admin.ModelAdmin):
 
 @admin.register(FeedingAppointment)
 class FeedingAppointmentAdmin(admin.ModelAdmin):
-    list_display = ('day', 'time')
+    list_display = ('exhibit', 'day', 'time')
+    
+@admin.register(FeedingAction)
+class FeedingActionAdmin(admin.ModelAdmin):
+    list_display = ('appointment', 'time')
