@@ -44,7 +44,7 @@ class Animal(models.Model):
     exhibit = models.ForeignKey(Exhibit, on_delete=models.RESTRICT, null=True)
 
     @property
-    def get_age_today(self):
+    def age(self):
         return datetime.date.today() - self.birth_date
     
     def __str__(self) -> str:
@@ -92,6 +92,10 @@ class FeedingAppointment(models.Model):
     def __str__(self) -> str:
         return f'{self.exhibit} {calendar.day_name[self.day]} | {time.strftime(self.time, "%#I:%M %p")}'
     
+    @property
+    def was_already_fed(self) -> bool:
+        return FeedingAction.objects.filter(appointment=self).count() > 0
+
 class FeedingAction(models.Model):
     time = models.TimeField()
     
