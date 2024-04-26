@@ -93,8 +93,13 @@ class FeedingAppointment(models.Model):
         return f'{self.exhibit} {calendar.day_name[self.day]} | {time.strftime(self.time, "%#I:%M %p")}'
     
     @property
+    # this probably does not work
     def was_already_fed(self) -> bool:
         return FeedingAction.objects.filter(appointment=self).count() > 0
+    
+    @property
+    def weekday(self) -> str:
+        return calendar.day_name[self.day]
 
 class FeedingAction(models.Model):
     time = models.TimeField()

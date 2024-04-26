@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpRequest, HttpResponse
 from django.contrib.auth import authenticate, login, logout
 
+from .models import Exhibit, FeedingAppointment
+
 def index(request: HttpRequest) -> HttpResponse:
     return render(request, 'index.html')
 
@@ -33,3 +35,17 @@ def exhibit_list(request: HttpRequest) -> HttpResponse:
 
 def exhibit_details(request: HttpRequest, id: int) -> HttpResponse:
     pass
+
+def feeding_appointment_list(request: HttpRequest) -> HttpResponse:
+    exhibits = Exhibit.objects.all()
+
+    data = {}
+    for e in exhibits:
+        appointments = FeedingAppointment.objects.filter(exhibit=e)
+        data[e.name] = appointments
+
+    context = {
+        'data': data
+    }
+
+    return render(request, "zoo/feeding_appts.html", context=context)

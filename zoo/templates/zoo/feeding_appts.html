@@ -1,0 +1,20 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>[cool zoo name] | Feeding Appointments</title>
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+  <h1 class="text-center">[cool zoo name]</h1>
+    {% for k, v in data.items %}
+    <div>
+        <h4>{{k}}</h5>
+        <h5>appointments</h5>
+        {% for appointment in v %}
+        <p>{{appointment.weekday}} {{appointment.time}}</p>
+        {% endfor %}
+    </div>    
+    {% endfor %}
+</div>
+{% endblock %}
