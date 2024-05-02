@@ -1,8 +1,11 @@
+import calendar
+from datetime import datetime, time, timedelta
+
 from django.shortcuts import render, redirect
 from django.http import HttpRequest, HttpResponse
 from django.contrib.auth import authenticate, login, logout
 
-from .models import Exhibit, FeedingAppointment
+from .models import Exhibit, FeedingAppointment, FeedingAction
 
 def index(request: HttpRequest) -> HttpResponse:
     return render(request, 'index.html')
@@ -42,10 +45,24 @@ def feeding_appointment_list(request: HttpRequest) -> HttpResponse:
     data = {}
     for e in exhibits:
         appointments = FeedingAppointment.objects.filter(exhibit=e)
-        data[e.name] = appointments
+        actions = FeedingAction.objects.filter(exhibit=e)
+        
+        # is there an appointment today?
+        print(datetime.now().weekday())
+        appointments_today = appointments.filter(day=datetime.now().weekday())
+        # if so, is there a corresponding action?
+        
+        grace_period = timedelta(minutes=10)
+        for appointment in appointments_today:
+            early_time = appointment.time - grace_period
+            late_time = appointment.time + grace_period
+            corresponding_action = actions.filter(date_time__time__range=(early_time, late_time))
+            print(corresponding_action.count())
+        
+        data[e.name] = {
+            'appointments': appointments,
+            'actions': actions,
+            'next_appointment': appointments_today,
+        }
 
-    context = {
-        'data': data
-    }
-
-    return render(request, "zoo/feeding_appts.html", context=context)
+    return render(request, "zoo/feeding_appts.html", context={'data': data})

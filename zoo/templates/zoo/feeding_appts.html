@@ -7,14 +7,29 @@
 {% block content %}
 <div class="container">
   <h1 class="text-center">[cool zoo name]</h1>
-    {% for k, v in data.items %}
+  {% for exhibit_name, exhibit_data in data.items %}
+  
     <div>
-        <h4>{{k}}</h5>
-        <h5>appointments</h5>
-        {% for appointment in v %}
-        <p>{{appointment.weekday}} {{appointment.time}}</p>
+        <h3>{{exhibit_name}}</h3>
+
+        <h5><u>appointments</u></h5>
+        {% for k in exhibit_data.appointments %}
+        <p>{{k}}</p>
         {% endfor %}
-    </div>    
-    {% endfor %}
+
+        <h5><u>actions</u></h5>
+        {% for k in exhibit_data.actions %}
+        <p>{{k}}</p>
+        {% endfor %}
+
+        <h5><u>next appointment:</u></h5>
+        {{exhibit_data.next_appointment}}
+    </div>
+
+    {% if not forloop.last %}
+    <hr>
+    {% endif %}
+
+  {% endfor %}
 </div>
 {% endblock %}

@@ -87,13 +87,12 @@ class FeedingAppointment(models.Model):
     day = models.SmallIntegerField(choices=DAYS)
     time = models.TimeField(auto_now=False, auto_now_add=False)
     
-    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE, )
+    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE)
     
     def __str__(self) -> str:
-        return f'{self.exhibit} {calendar.day_name[self.day]} | {time.strftime(self.time, "%#I:%M %p")}'
+        return f'{self.exhibit} | {self.weekday} | {time.strftime(self.time, "%#I:%M %p")}'
     
     @property
-    # this probably does not work
     def was_already_fed(self) -> bool:
         return FeedingAction.objects.filter(appointment=self).count() > 0
     
@@ -102,10 +101,10 @@ class FeedingAppointment(models.Model):
         return calendar.day_name[self.day]
 
 class FeedingAction(models.Model):
-    time = models.TimeField()
+    date_time = models.DateTimeField(default=datetime.now())
     
     staff = models.ManyToManyField(User)
-    appointment = models.ForeignKey(FeedingAppointment, on_delete=models.CASCADE)
+    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE)
     
     def __str__(self) -> str:
-        return f'{self.appointment} | {time.strftime(self.time, "%#I:%M %p")}'
+        return f'{self.exhibit} | {calendar.day_name[self.date_time.weekday()]} {time.strftime(self.date_time.time(), "%#I:%M %p")}'
