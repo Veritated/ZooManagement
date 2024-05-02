@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>{{exhibit.name}}</h1>
+    <h2>{{exhibit.description}}</h2>
+
+    <h1>Animals in {{exhibit.name}}:</h1>
+    <ul>
+        {% for animal in animals %}
+        <li><h3><a href="{% url 'SpecificAnimalConditions' animal.name%}">{{ animal.name }}</a></h3>
+            <h4>{{ animal.description }}</h4>
+            <h5>Birth Date: {{animal.birth_date}}, Species: {{ animal.species }}</h5>
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
