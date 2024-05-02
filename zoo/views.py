@@ -59,7 +59,7 @@ def animal_details(request: HttpRequest, name: str) -> HttpResponse:
      diagnosis = []
      for d in Diagnosis.objects.all():
          if d.animal.name == animal.name:
-             diagnosis.append(a)
+             diagnosis.append(d)
 
 
      return render(request, 'zoo/SpecificAnimalConditions.html', {'animal':animal,'diagnosis':diagnosis})
