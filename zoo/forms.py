@@ -9,6 +9,10 @@ class AddFeedingActionForm(forms.ModelForm):
             'date_time': forms.DateTimeInput(attrs={'type': 'datetime-local'})
         }
         
-# class AddFeedingAppointmentForm(forms.ModelForm):
-#     class Meta:
-#         model = FeedingAppointment
+class AddFeedingAppointmentForm(forms.ModelForm):
+    class Meta:
+        model = FeedingAppointment
+        fields = '__all__'
+        widgets = {
+            'time': forms.TimeInput(attrs={'type': 'time'})
+        }

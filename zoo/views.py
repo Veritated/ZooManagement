@@ -6,7 +6,7 @@ from django.http import HttpRequest, HttpResponse
 from django.contrib.auth import authenticate, login, logout
 
 from .models import Exhibit, FeedingAppointment, FeedingAction
-from .forms import AddFeedingActionForm
+from .forms import *
 
 APPOINTMENT_GRACE_PERIOD = timedelta(minutes=10)
 
@@ -72,10 +72,10 @@ def feeding_appointment_list(request: HttpRequest) -> HttpResponse:
         data[exhibit.name] = {
             'appointments': appointments_today,
             'actions': actions_today,
-            'unfulfilled_appts': unfulfilled_appointments,
+            'unfulfilled_appointments': unfulfilled_appointments,
         }
 
-    return render(request, "zoo/feeding_appts.html", context={'data': data})
+    return render(request, "zoo/feeding_appointments.html", context={'data': data})
 
 def add_feeding_action(request: HttpRequest) -> HttpResponse:
     if not request.user.is_authenticated:
@@ -88,3 +88,15 @@ def add_feeding_action(request: HttpRequest) -> HttpResponse:
             return redirect('feeding_index')
 
     return render(request, 'zoo/add_feeding_action.html', {'form' : form})
+
+def add_feeding_appointment(request: HttpRequest) -> HttpResponse:
+    if not request.user.is_authenticated:
+        return redirect('index')
+    
+    form = AddFeedingAppointmentForm(request.POST or None)
+    if request.method == "POST":
+        if form.is_valid():
+            form.save()
+            return redirect('feeding_index')
+
+    return render(request, 'zoo/add_feeding_appointment.html', {'form' : form})

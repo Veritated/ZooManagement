@@ -1,0 +1,39 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>[cool zoo name] | Feeding Appointments</title>
+{% endblock title %}
+
+{% block content %}
+
+<div>
+  <a href="{% url "add_feeding_action" %}" class="btn btn-primary my-3">Register an action</a>
+</div>
+{% for exhibit_name, exhibit_data in data.items %}
+
+  <div>
+      <h3>{{exhibit_name}}</h3>
+
+      <h5><u>today's appointments:</u></h5>
+      {% for k in exhibit_data.appointments %}
+      <p>{{k.formatted_time}}</p>
+      {% endfor %}
+
+      <h5><u>today's actions:</u></h5>
+      {% for k in exhibit_data.actions %}
+      <p>{{k.formatted_time}}</p>
+      {% endfor %}
+
+      <h5><u>upcoming appointments:</u></h5>
+      {% for appointment, is_late in exhibit_data.unfulfilled_appointments.items %}
+      <p>{{appointment.formatted_time}} {% if is_late %}(Late){% endif %}</p>
+      {% endfor %}
+  </div>
+
+  {% if not forloop.last %}
+  <hr>
+  {% endif %}
+
+{% endfor %}
+
+{% endblock %}
