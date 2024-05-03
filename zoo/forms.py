@@ -6,13 +6,18 @@ class AddFeedingActionForm(forms.ModelForm):
         model = FeedingAction
         fields = ['exhibit', 'staff', 'date_time']
         widgets = {
-            'date_time': forms.DateTimeInput(attrs={'type': 'datetime-local'})
+            'date_time': forms.DateTimeInput(attrs={'type': 'datetime-local'}),   
+        }
+        labels = {
+            'date_time': 'Date & Time'
         }
         
 class AddFeedingAppointmentForm(forms.ModelForm):
     class Meta:
         model = FeedingAppointment
-        fields = '__all__'
+        fields = ['exhibit', 'day', 'time']
         widgets = {
-            'time': forms.TimeInput(attrs={'type': 'time'})
+            'time': forms.TimeInput(attrs={'type': 'time'}),
+            'staff': forms.SelectMultiple()
         }
+        
