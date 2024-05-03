@@ -1,0 +1,28 @@
+{% extends "base_form.html" %}
+
+{% block title %}
+<title>Nonatem Zoo | New Animal</title>
+{% endblock title %}
+
+{% block form %}
+<p>{{form.name.label}}:
+    <br>
+    {{form.name}}
+</p>
+<p>{{form.birth_date.label}}: {{form.birth_date}}</p>
+<p>{{form.death_date.label}}: {{form.death_date}}</p>
+<p>
+    {{form.description.label}}:
+    <br>
+    {{form.description}}
+</p>
+<p>{{form.species.label}}:
+    <br>
+    {{form.species}}
+</p>
+<p>{{form.exhibit.label}}:
+    <br>
+    {{form.exhibit}}
+</p>
+
+{% endblock form %}

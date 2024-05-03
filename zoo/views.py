@@ -1,11 +1,11 @@
-
 from django.shortcuts import render, redirect
 from django.http import HttpRequest, HttpResponse
+from django.contrib.auth import authenticate, login, logout
 from .models import Animal
 from .models import Exhibit
 from .models import Diagnosis
 from .models import FeedingAppointment
-from django.contrib.auth import authenticate, login, logout
+from zoo.forms import *
 
 def index(request: HttpRequest) -> HttpResponse:
     return render(request, 'index.html')
@@ -64,3 +64,6 @@ def animal_details(request: HttpRequest, name: str) -> HttpResponse:
 
 
      return render(request, 'zoo/SpecificAnimalConditions.html', {'animal':animal,'diagnosis':diagnosis})
+
+def new_animal(request: HttpRequest) -> HttpRequest:
+    return render(request, 'newanimal.html')
