@@ -23,8 +23,8 @@
         {% endfor %}
 
         <h5><u>upcoming appointments:</u></h5>
-        {% for appointment in exhibit_data.unfulfilled_appts %}
-        <p>{{appointment.formatted_time}}</p>
+        {% for appointment, is_late in exhibit_data.unfulfilled_appts.items %}
+        <p>{{appointment.formatted_time}} {% if is_late %}(Late){% endif %}</p>
         {% endfor %}
     </div>
 

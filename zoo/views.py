@@ -45,13 +45,15 @@ def feeding_appointment_list(request: HttpRequest) -> HttpResponse:
     data = {}
     for exhibit in Exhibit.objects.all():
         appointments_today = FeedingAppointment.objects.filter(exhibit=exhibit).filter(day=datetime.now().weekday())
+        appointments_today = appointments_today.order_by('time')
         actions_today = FeedingAction.objects.filter(exhibit=exhibit).filter(date_time__date=datetime.today())
         
         # have any appointments already been taken care of?
-        unfulfilled_appointments = []
+        unfulfilled_appointments = {}
         for appointment in appointments_today:
-            late_time = datetime.combine(datetime.today(), appointment.time) + APPOINTMENT_GRACE_PERIOD
-            early_time = datetime.combine(datetime.today(), appointment.time) - APPOINTMENT_GRACE_PERIOD
+            appointment_date_time = datetime.combine(datetime.today(), appointment.time)
+            late_time = appointment_date_time + APPOINTMENT_GRACE_PERIOD
+            early_time = appointment_date_time - APPOINTMENT_GRACE_PERIOD
             corresponding_actions = actions_today.filter(date_time__time__range=(early_time, late_time))
             
             # print(corresponding_actions.count(), appointment.formatted_time)
@@ -60,7 +62,8 @@ def feeding_appointment_list(request: HttpRequest) -> HttpResponse:
             elif corresponding_actions.count() > 1:
                 print('possible overfeeding')
             
-            unfulfilled_appointments.append(appointment)
+            is_late = datetime.now() > appointment_date_time
+            unfulfilled_appointments[appointment] = is_late
         
         data[exhibit.name] = {
             'appointments': appointments_today,
