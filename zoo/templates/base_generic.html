@@ -15,6 +15,10 @@
 </head>
 <body class="p-5">
   <div class="container">
+    
+    <h1 class="text-center">[cool zoo name]</h1>
+    <p class="text-center">A website developed by <em>Team 313</em>!</p>
+    
     <div class="row">
       <div class="col-sm-3">
         {% block sidebar %}
@@ -49,7 +53,6 @@
         {% endblock %}
       </div>
       <div class="col-sm-8">
-        <h1 class="text-center">[cool zoo name]</h1>
         {% block content %}{% endblock %}
         {% block pagination %}
         {% if is_paginated %}
