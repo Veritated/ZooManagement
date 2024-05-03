@@ -15,24 +15,42 @@
 </head>
 <body class="p-5">
   <div class="container">
+    
+    <h1 class="text-center">Nonatem Zoo</h1>
+    <p class="text-center">A website developed by <em>Team 313</em>!</p>
+    
     <div class="row">
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         {% block sidebar %}
           <ul class="sidebar-nav">
             <li><h5>Navigation</h5></li>
             <div class="common-nav">
               <li><a href="{% url 'index' %}">Home</a></li>
+              {% comment %} TODO: exhibits {% endcomment %}
             </div>
+
+            <hr>
+
             {% if user.is_authenticated %}
-            <li>{{ user.get_username }}</li>
+            <li>Welcome, {{ user.get_username }}</li>
+            
             <li>{% include 'zoo/logout_form.html' %}</li>
             {% else %}
             <li>{% include 'zoo/login_form.html' %}</li>
             {% endif %}
+
             {% if user.is_staff %}
             <hr>
+
             <li><h5>Staff Actions</h5></li>
+            <li><a href="{% url 'food_management_index' %}">Food To-Do</a></li>
+            <li><a href="{% url 'view_feeding_appointments' %}">View Feeding Times</a></li>
+            <li><a href="{% url 'add_feeding_appointment' %}">Add Feeding Time</a></li>
+            <li><a href="{% url 'view_feeding_actions' %}">View Feeding Actions</a></li>
+            <li><a href="{% url 'add_feeding_action' %}">Add Feeding Action</a></li>
+            {% comment %} TODO: ANIMALS, CONDITIONS, etc. {% endcomment %}
             {% endif %}
+
           </ul>        
         {% endblock %}
       </div>
@@ -40,19 +58,19 @@
         {% block content %}{% endblock %}
         {% block pagination %}
         {% if is_paginated %}
-            <div class="pagination">
-                <span class="page-links">
-                    {% if page_obj.has_previous %}
-                        <a href="{{ request.path }}?page={{ page_obj.previous_page_number }}">previous</a>
-                    {% endif %}
-                    <span class="page-current">
-                        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
-                    </span>
-                    {% if page_obj.has_next %}
-                        <a href="{{ request.path }}?page={{ page_obj.next_page_number }}">next</a>
-                    {% endif %}
+        <div class="pagination">
+            <span class="page-links">
+                {% if page_obj.has_previous %}
+                    <a href="{{ request.path }}?page={{ page_obj.previous_page_number }}">previous</a>
+                {% endif %}
+                <span class="page-current">
+                    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
                 </span>
-            </div>
+                {% if page_obj.has_next %}
+                    <a href="{{ request.path }}?page={{ page_obj.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+        </div>
         {% endif %}
         {% endblock %}
       </div>
