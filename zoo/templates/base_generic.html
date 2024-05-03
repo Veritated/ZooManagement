@@ -49,7 +49,8 @@
           <li><a href="{% url 'add_feeding_appointment' %}">Add Feeding Time</a></li>
           <li><a href="{% url 'view_feeding_actions' %}">View Feeding Actions</a></li>
           <li><a href="{% url 'add_feeding_action' %}">Add Feeding Action</a></li>
-          {% comment %} TODO: ANIMALS, CONDITIONS, etc. {% endcomment %}
+          <li><a href="{% url 'new_animal' %}">Add Animal</a></li>
+          {% comment %} TODO: conditions?, etc. {% endcomment %}
           {% endif %}
         </ul>
         {% endblock %}
