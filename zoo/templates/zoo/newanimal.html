@@ -1,14 +1,28 @@
-{% if user.is_authenticated %}
-{% extends "base_generic.html" %}
-{% load static %}
+{% extends "base_form.html" %}
+
 {% block title %}
-<title>New Animal</title>
+<title>Nonatem Zoo | New Animal</title>
 {% endblock title %}
-{% block content %}
 
+{% block form %}
+<p>{{form.name.label}}:
+    <br>
+    {{form.name}}
+</p>
+<p>{{form.birth_date.label}}: {{form.birth_date}}</p>
+<p>{{form.death_date.label}}: {{form.death_date}}</p>
+<p>
+    {{form.description.label}}:
+    <br>
+    {{form.description}}
+</p>
+<p>{{form.species.label}}:
+    <br>
+    {{form.species}}
+</p>
+<p>{{form.exhibit.label}}:
+    <br>
+    {{form.exhibit}}
+</p>
 
-
-
-{% else %}
-<h1>You are not Logged In</h1>
-<a href=""><p>Return home</p></a>
+{% endblock form %}
