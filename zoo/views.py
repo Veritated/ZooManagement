@@ -64,3 +64,6 @@ def animal_details(request: HttpRequest, name: str) -> HttpResponse:
 
 
      return render(request, 'zoo/SpecificAnimalConditions.html', {'animal':animal,'diagnosis':diagnosis})
+
+def new_animal(request: HttpRequest) -> HttpRequest:
+    return render(request, 'newanimal.html')

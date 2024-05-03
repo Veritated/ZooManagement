@@ -12,4 +12,5 @@ urlpatterns = [
     path('exhibitcatalog/',views.exhibit_list,name='ExhibitCatalog'),
     path('specificexhibit/<str:name>/',views.exhibit_details,name='SpecificExhibit'),
     path('specificanimal/<str:name>/',views.animal_details,name='SpecificAnimalConditions'),
+    path('newanimal/', views.new_animal, name='new_animal')
 ]
