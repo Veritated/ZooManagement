@@ -90,7 +90,7 @@ class FeedingAppointment(models.Model):
     exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE)
     
     def __str__(self) -> str:
-        return f'{self.exhibit} | {self.weekday} | {time.strftime(self.time, "%#I:%M %p")}'
+        return f'{self.exhibit} | {self.weekday} | {self.formatted_time}'
     
     @property
     def was_already_fed(self) -> bool:
@@ -99,6 +99,10 @@ class FeedingAppointment(models.Model):
     @property
     def weekday(self) -> str:
         return calendar.day_name[self.day]
+    
+    @property
+    def formatted_time(self) -> str:
+        return time.strftime(self.time, "%#I:%M %p")
 
 class FeedingAction(models.Model):
     date_time = models.DateTimeField(default=datetime.now())
@@ -107,4 +111,12 @@ class FeedingAction(models.Model):
     exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE)
     
     def __str__(self) -> str:
-        return f'{self.exhibit} | {calendar.day_name[self.date_time.weekday()]} {time.strftime(self.date_time.time(), "%#I:%M %p")}'
+        return f'{self.exhibit} | {self.weekday} {self.formatted_time}'
+    
+    @property
+    def weekday(self) -> str:
+        return calendar.day_name[self.date_time.weekday()]
+
+    @property
+    def formatted_time(self) -> str:
+        return time.strftime(self.date_time.time(), "%#I:%M %p")

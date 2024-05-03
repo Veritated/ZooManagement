@@ -12,18 +12,20 @@
     <div>
         <h3>{{exhibit_name}}</h3>
 
-        <h5><u>appointments</u></h5>
+        <h5><u>today's appointments:</u></h5>
         {% for k in exhibit_data.appointments %}
-        <p>{{k}}</p>
+        <p>{{k.formatted_time}}</p>
         {% endfor %}
 
-        <h5><u>actions</u></h5>
+        <h5><u>today's actions:</u></h5>
         {% for k in exhibit_data.actions %}
-        <p>{{k}}</p>
+        <p>{{k.formatted_time}}</p>
         {% endfor %}
 
-        <h5><u>next appointment:</u></h5>
-        {{exhibit_data.next_appointment}}
+        <h5><u>upcoming appointments:</u></h5>
+        {% for appointment in exhibit_data.unfulfilled_appts %}
+        <p>{{appointment.formatted_time}}</p>
+        {% endfor %}
     </div>
 
     {% if not forloop.last %}

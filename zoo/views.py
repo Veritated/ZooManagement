@@ -7,6 +7,8 @@ from django.contrib.auth import authenticate, login, logout
 
 from .models import Exhibit, FeedingAppointment, FeedingAction
 
+APPOINTMENT_GRACE_PERIOD = timedelta(minutes=10)
+
 def index(request: HttpRequest) -> HttpResponse:
     return render(request, 'index.html')
 
@@ -40,29 +42,30 @@ def exhibit_details(request: HttpRequest, id: int) -> HttpResponse:
     pass
 
 def feeding_appointment_list(request: HttpRequest) -> HttpResponse:
-    exhibits = Exhibit.objects.all()
-
     data = {}
-    for e in exhibits:
-        appointments = FeedingAppointment.objects.filter(exhibit=e)
-        actions = FeedingAction.objects.filter(exhibit=e)
+    for exhibit in Exhibit.objects.all():
+        appointments_today = FeedingAppointment.objects.filter(exhibit=exhibit).filter(day=datetime.now().weekday())
+        actions_today = FeedingAction.objects.filter(exhibit=exhibit).filter(date_time__date=datetime.today())
         
-        # is there an appointment today?
-        print(datetime.now().weekday())
-        appointments_today = appointments.filter(day=datetime.now().weekday())
-        # if so, is there a corresponding action?
-        
-        grace_period = timedelta(minutes=10)
+        # have any appointments already been taken care of?
+        unfulfilled_appointments = []
         for appointment in appointments_today:
-            early_time = appointment.time - grace_period
-            late_time = appointment.time + grace_period
-            corresponding_action = actions.filter(date_time__time__range=(early_time, late_time))
-            print(corresponding_action.count())
+            late_time = datetime.combine(datetime.today(), appointment.time) + APPOINTMENT_GRACE_PERIOD
+            early_time = datetime.combine(datetime.today(), appointment.time) - APPOINTMENT_GRACE_PERIOD
+            corresponding_actions = actions_today.filter(date_time__time__range=(early_time, late_time))
+            
+            # print(corresponding_actions.count(), appointment.formatted_time)
+            if corresponding_actions.count() > 0:
+                continue
+            elif corresponding_actions.count() > 1:
+                print('possible overfeeding')
+            
+            unfulfilled_appointments.append(appointment)
         
-        data[e.name] = {
-            'appointments': appointments,
-            'actions': actions,
-            'next_appointment': appointments_today,
+        data[exhibit.name] = {
+            'appointments': appointments_today,
+            'actions': actions_today,
+            'unfulfilled_appts': unfulfilled_appointments,
         }
 
     return render(request, "zoo/feeding_appts.html", context={'data': data})
