@@ -1,0 +1,14 @@
+{% if user.is_authenticated %}
+{% extends "base_generic.html" %}
+{% load static %}
+{% block title %}
+<title>New Animal</title>
+{% endblock title %}
+{% block content %}
+
+
+
+
+{% else %}
+<h1>You are not Logged In</h1>
+<a href=""><p>Return home</p></a>

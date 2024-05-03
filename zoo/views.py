@@ -33,3 +33,6 @@ def exhibit_list(request: HttpRequest) -> HttpResponse:
 
 def exhibit_details(request: HttpRequest, id: int) -> HttpResponse:
     pass
+
+def new_animal(request: HttpRequest) -> HttpRequest:
+    return render(request, 'newanimal.html')
