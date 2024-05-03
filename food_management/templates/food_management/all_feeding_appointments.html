@@ -9,11 +9,11 @@
 {% for exhibit_name, exhibit_data in data.items %}
 
   <div>
-      <h3>{{exhibit_name}}</h3>
+    <h3>{{exhibit_name}}</h3>
 
-      {% for appointment in exhibit_data.appointments %}
-      <p>{{appointment.weekday}} @ {{appointment.formatted_time}}</p>
-      {% endfor %}
+    {% for appointment in exhibit_data.appointments %}
+    <p>{{appointment.weekday}} @ {{appointment.formatted_time}}</p>
+    {% endfor %}
   </div>
 
   {% if not forloop.last %}

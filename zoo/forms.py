@@ -18,6 +18,5 @@ class AddFeedingAppointmentForm(forms.ModelForm):
         fields = ['exhibit', 'day', 'time']
         widgets = {
             'time': forms.TimeInput(attrs={'type': 'time'}),
-            'staff': forms.SelectMultiple()
         }
         

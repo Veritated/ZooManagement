@@ -12,7 +12,7 @@ APPOINTMENT_GRACE_PERIOD = timedelta(minutes=10)
 
 # Create your views here.
 
-def feeding_index(request: HttpRequest) -> HttpResponse:
+def index(request: HttpRequest) -> HttpResponse:
     if not request.user.is_authenticated:
         return redirect('index')
     
@@ -21,6 +21,9 @@ def feeding_index(request: HttpRequest) -> HttpResponse:
         appointments_today = FeedingAppointment.objects.filter(exhibit=exhibit).filter(day=datetime.now().weekday())
         appointments_today = appointments_today.order_by('time')
         actions_today = FeedingAction.objects.filter(exhibit=exhibit).filter(date_time__date=datetime.today())
+        
+        # if actions_today.count() > appointments_today.count():
+        #     print('possible overfeeding')
         
         # have any appointments already been taken care of?
         unfulfilled_appointments = {}
@@ -31,9 +34,7 @@ def feeding_index(request: HttpRequest) -> HttpResponse:
             corresponding_actions = actions_today.filter(date_time__time__range=(early_time, late_time))
             
             # print(corresponding_actions.count(), appointment.formatted_time)
-            if corresponding_actions.count() > 1:
-                print('possible overfeeding')
-            elif corresponding_actions.count() > 0:
+            if corresponding_actions.count() > 0:
                 continue
             
             is_late = datetime.now() > appointment_date_time
@@ -43,6 +44,7 @@ def feeding_index(request: HttpRequest) -> HttpResponse:
             'appointments': appointments_today,
             'actions': actions_today,
             'unfulfilled_appointments': unfulfilled_appointments,
+            'overfed': actions_today.count() > appointments_today.count()
         }
 
     return render(request, "food_management/index.html", context={'data': data})
@@ -65,7 +67,7 @@ def add_feeding_action(request: HttpRequest) -> HttpResponse:
     if request.method == "POST":
         if form.is_valid():
             form.save()
-            return redirect('feeding_index')
+            return redirect('food_management_index')
 
     return render(request, 'food_management/add_feeding_action.html', {'form' : form})
 
@@ -87,6 +89,6 @@ def add_feeding_appointment(request: HttpRequest) -> HttpResponse:
     if request.method == "POST":
         if form.is_valid():
             form.save()
-            return redirect('feeding_index')
+            return redirect('food_management_index')
 
     return render(request, 'food_management/add_feeding_appointment.html', {'form' : form})

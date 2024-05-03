@@ -12,22 +12,22 @@
 {% for exhibit_name, exhibit_data in data.items %}
 
   <div>
-      <h3>{{exhibit_name}}</h3>
+    <h3>{{exhibit_name}}</h3>
 
-      <h5><u>today's appointments:</u></h5>
-      {% for k in exhibit_data.appointments %}
-      <p>{{k.formatted_time}}</p>
-      {% endfor %}
+    <h5><u>today's appointments:</u></h5>
+    {% for k in exhibit_data.appointments %}
+    <p>{{k.formatted_time}}</p>
+    {% endfor %}
 
-      <h5><u>today's actions:</u></h5>
-      {% for k in exhibit_data.actions %}
-      <p>{{k.formatted_time}}</p>
-      {% endfor %}
+    <h5><u>today's actions:</u></h5>
+    {% for k in exhibit_data.actions %}
+    <p>{{k.formatted_time}}</p>
+    {% endfor %}
 
-      <h5><u>upcoming appointments:</u></h5>
-      {% for appointment, is_late in exhibit_data.unfulfilled_appointments.items %}
-      <p>{{appointment.formatted_time}} {% if is_late %}(Late){% endif %}</p>
-      {% endfor %}
+    <h5><u>unfulfilled appointments:</u></h5>
+    {% for appointment, is_late in exhibit_data.unfulfilled_appointments.items %}
+    <p>{{appointment.formatted_time}} {% if is_late %}(Late){% endif %}</p>
+    {% endfor %}
   </div>
 
   {% if not forloop.last %}
