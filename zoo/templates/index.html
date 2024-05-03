@@ -3,13 +3,12 @@
 
 {% block title %}
 <title>Nonatem Zoo | Home</title>
-<title>Nonatem | Home</title>
 {% endblock title %}
 
 {% block content %}
 
-<link rel="stylesheet" href="{% static 'css/images/styles.css' %}">
-<img src="{% static 'css/images/mapcrop.jpg' %}" alt="ZooMap" usemap="#zoomap" height="90%" width="90%">
+<link rel="stylesheet" href="{% static 'images/styles.css' %}">
+<img src="{% static 'images/mapcrop.jpg' %}" alt="ZooMap" usemap="#zoomap" height="90%" width="90%">
 
 <map name="zoomap">
   <area class="exhibit" onmouseover="info('central jungle')" onmouseleave="closeInfo('central jungle')" shape="circle" coords="455,212,15" alt="lime" href=#>
