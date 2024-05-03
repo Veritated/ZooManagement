@@ -40,8 +40,8 @@ class Animal(models.Model):
     death_date = models.DateField(null=True, blank=True)
     description = models.CharField(max_length=255)
 
-    species = models.ForeignKey(Species, on_delete=models.RESTRICT)
-    exhibit = models.ForeignKey(Exhibit, on_delete=models.RESTRICT, null=True)
+    species = models.ForeignKey(Species, on_delete=models.CASCADE)
+    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE, null=True)
 
     @property
     def age(self):
