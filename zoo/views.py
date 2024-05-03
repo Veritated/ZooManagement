@@ -2,6 +2,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpRequest, HttpResponse
 from django.contrib.auth import authenticate, login, logout
 
+from zoo.forms import *
+
 def index(request: HttpRequest) -> HttpResponse:
     return render(request, 'index.html')
 
@@ -35,4 +37,13 @@ def exhibit_details(request: HttpRequest, id: int) -> HttpResponse:
     pass
 
 def new_animal(request: HttpRequest) -> HttpRequest:
-    return render(request, 'newanimal.html')
+    if not request.user.is_authenticated:
+        return redirect('index')
+    
+    form = AddNewAnimalForm(request.POST or None)
+    if request.method == "POST":
+        if form.is_valid():
+            form.save()
+            return redirect('index')
+
+    return render(request, 'zoo/newanimal.html', {'form' : form})
