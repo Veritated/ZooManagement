@@ -1,0 +1,15 @@
+{% extends "base_form.html" %}
+
+{% block title %}
+<title>Nonatem Zoo | New Feeding Action</title>
+{% endblock title %}
+
+{% block form %}
+<p>{{form.exhibit.label}}: {{form.exhibit}}</p>
+<p>
+    {{form.staff.label}}:
+    <br>
+    {{form.staff}}
+</p>
+<p>{{form.date_time.label}}: {{form.date_time}}</p>
+{% endblock form %}

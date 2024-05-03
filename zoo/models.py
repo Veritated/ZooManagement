@@ -40,8 +40,8 @@ class Animal(models.Model):
     death_date = models.DateField(null=True, blank=True)
     description = models.CharField(max_length=255)
 
-    species = models.ForeignKey(Species, on_delete=models.RESTRICT)
-    exhibit = models.ForeignKey(Exhibit, on_delete=models.RESTRICT, null=True)
+    species = models.ForeignKey(Species, on_delete=models.CASCADE)
+    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE, null=True)
 
     @property
     def age(self):
@@ -87,20 +87,40 @@ class FeedingAppointment(models.Model):
     day = models.SmallIntegerField(choices=DAYS)
     time = models.TimeField(auto_now=False, auto_now_add=False)
     
-    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE, )
+    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE)
     
     def __str__(self) -> str:
-        return f'{self.exhibit} {calendar.day_name[self.day]} | {time.strftime(self.time, "%#I:%M %p")}'
+        return f'{self.exhibit} | {self.weekday} | {self.formatted_time}'
     
     @property
     def was_already_fed(self) -> bool:
         return FeedingAction.objects.filter(appointment=self).count() > 0
+    
+    @property
+    def weekday(self) -> str:
+        return calendar.day_name[self.day]
+    
+    @property
+    def formatted_time(self) -> str:
+        return self.time.strftime("%#I:%M %p")
 
 class FeedingAction(models.Model):
-    time = models.TimeField()
+    date_time = models.DateTimeField(default=datetime.now())
     
     staff = models.ManyToManyField(User)
-    appointment = models.ForeignKey(FeedingAppointment, on_delete=models.CASCADE)
+    exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE)
     
     def __str__(self) -> str:
-        return f'{self.appointment} | {time.strftime(self.time, "%#I:%M %p")}'
+        return f'{self.exhibit} | {self.formatted_date} {self.formatted_time}'
+    
+    @property
+    def weekday(self) -> str:
+        return calendar.day_name[self.date_time.weekday()]
+
+    @property
+    def formatted_date(self) -> str:
+        return self.date_time.strftime("%b %#d, %Y")
+
+    @property
+    def formatted_time(self) -> str:
+        return self.date_time.time().strftime("%#I:%M %p")

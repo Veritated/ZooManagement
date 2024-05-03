@@ -1,7 +1,10 @@
 from django.shortcuts import render, redirect
 from django.http import HttpRequest, HttpResponse
 from django.contrib.auth import authenticate, login, logout
-
+from .models import Animal
+from .models import Exhibit
+from .models import Diagnosis
+from .models import FeedingAppointment
 from zoo.forms import *
 
 def index(request: HttpRequest) -> HttpResponse:
@@ -28,22 +31,39 @@ def logout_user(request: HttpRequest) -> HttpResponse:
     return redirect('index')
 
 def animal_list(request: HttpRequest) -> HttpResponse:
-    pass
+    animals = Animal.objects.all()
+    return render(request, 'zoo/AnimalCatalog.html',{'animals': animals})
 
 def exhibit_list(request: HttpRequest) -> HttpResponse:
-    pass
+    exhibits = Exhibit.objects.all()
+    return render(request, 'zoo/ExhibitCatalog.html',{'exhibits' : exhibits})
 
-def exhibit_details(request: HttpRequest, id: int) -> HttpResponse:
-    pass
+def exhibit_details(request: HttpRequest, name: str) -> HttpResponse:
+    exhibit = None
+    for e in Exhibit.objects.all():
+        if e.name == name:
+            exhibit = e
+
+    animals = []
+    for a in Animal.objects.all():
+        if a.exhibit == exhibit:
+            animals.append(a)
+
+    return render(request, 'zoo/SpecificExhibit.html',{'exhibit':exhibit,'animals':animals})
+
+def animal_details(request: HttpRequest, name: str) -> HttpResponse:
+     animal = Animal
+     for a in Animal.objects.all():
+         if a.name == name:
+             animal = a
+
+     diagnosis = []
+     for d in Diagnosis.objects.all():
+         if d.animal.name == animal.name:
+             diagnosis.append(d)
+
+
+     return render(request, 'zoo/SpecificAnimalConditions.html', {'animal':animal,'diagnosis':diagnosis})
 
 def new_animal(request: HttpRequest) -> HttpRequest:
-    if not request.user.is_authenticated:
-        return redirect('index')
-    
-    form = AddNewAnimalForm(request.POST or None)
-    if request.method == "POST":
-        if form.is_valid():
-            form.save()
-            return redirect('index')
-
-    return render(request, 'zoo/newanimal.html', {'form' : form})
+    return render(request, 'newanimal.html')

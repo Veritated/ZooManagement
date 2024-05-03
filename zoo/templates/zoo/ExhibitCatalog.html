@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>Exhibit List</h1>
+    <ul>
+        {% for exhibit in exhibits %}
+        <li><h3><a href="{% url 'SpecificExhibit' exhibit.name%}">{{ exhibit.name }}</a></h3>
+            <h4>{{ exhibit.description }}</h4>
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
