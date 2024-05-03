@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>[cool zoo name] | New Feeding Action</title>
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+  <form method="POST" action="">
+    {% csrf_token %}
+    <div>
+        {{form.as_p}}
+    </div>
+    <button type="submit" class="btn btn-primary">+</button>
+  </form>
+</div>
+{% endblock %}

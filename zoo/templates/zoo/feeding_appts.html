@@ -7,6 +7,9 @@
 {% block content %}
 <div class="container">
   <h1 class="text-center">[cool zoo name]</h1>
+  <div>
+    <a href="{% url "index" %}" class="btn btn-primary my-3">Register an action</a>
+  </div>
   {% for exhibit_name, exhibit_data in data.items %}
   
     <div>
