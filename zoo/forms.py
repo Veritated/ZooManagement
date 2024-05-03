@@ -1,5 +1,5 @@
 from django import forms
-from .models import FeedingAction, FeedingAppointment, Animal
+from .models import Animal, FeedingAction, FeedingAppointment
 
 class AddFeedingActionForm(forms.ModelForm):
     class Meta:
