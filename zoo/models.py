@@ -102,7 +102,7 @@ class FeedingAppointment(models.Model):
     
     @property
     def formatted_time(self) -> str:
-        return time.strftime(self.time, "%#I:%M %p")
+        return self.time.strftime("%#I:%M %p")
 
 class FeedingAction(models.Model):
     date_time = models.DateTimeField(default=datetime.now())
@@ -111,12 +111,16 @@ class FeedingAction(models.Model):
     exhibit = models.ForeignKey(Exhibit, on_delete=models.CASCADE)
     
     def __str__(self) -> str:
-        return f'{self.exhibit} | {self.weekday} {self.formatted_time}'
+        return f'{self.exhibit} | {self.formatted_date} {self.formatted_time}'
     
     @property
     def weekday(self) -> str:
         return calendar.day_name[self.date_time.weekday()]
 
     @property
+    def formatted_date(self) -> str:
+        return self.date_time.strftime("%b %#d, %Y")
+
+    @property
     def formatted_time(self) -> str:
-        return time.strftime(self.date_time.time(), "%#I:%M %p")
+        return self.date_time.time().strftime("%#I:%M %p")

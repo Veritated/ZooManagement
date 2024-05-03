@@ -69,6 +69,16 @@ def add_feeding_action(request: HttpRequest) -> HttpResponse:
 
     return render(request, 'food_management/add_feeding_action.html', {'form' : form})
 
+@permission_required('zoo.view_feedingappointment', raise_exception=True)
+def view_feeding_appointments(request: HttpRequest) -> HttpResponse:
+    data = {}
+    for exhibit in Exhibit.objects.all():
+        data[exhibit.name] = {
+            'appointments': FeedingAppointment.objects.filter(exhibit=exhibit)
+        }
+
+    return render(request, 'food_management/all_feeding_appointments.html', context={'data': data})
+
 def add_feeding_appointment(request: HttpRequest) -> HttpResponse:
     if not request.user.is_authenticated:
         return redirect('index')
