@@ -66,4 +66,13 @@ def animal_details(request: HttpRequest, name: str) -> HttpResponse:
      return render(request, 'zoo/SpecificAnimalConditions.html', {'animal':animal,'diagnosis':diagnosis})
 
 def new_animal(request: HttpRequest) -> HttpRequest:
-    return render(request, 'newanimal.html')
+    if not request.user.is_authenticated:
+        return redirect('index')
+    
+    form = AddNewAnimalForm(request.POST or None)
+    if request.method == "POST":
+        if form.is_valid():
+            form.save()
+            return redirect('index')
+
+    return render(request, 'zoo/newanimal.html', {'form' : form})

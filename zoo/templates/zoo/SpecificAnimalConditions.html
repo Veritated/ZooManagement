@@ -7,7 +7,7 @@
     <h5>Find {{ animal.name }} in the <a href="{% url 'SpecificExhibit' animal.exhibit.name%}">{{ animal.exhibit }}</a></h5>
 
     <br>
-    <h3>{{animal.name}} Health Conditions:</h3>
+    <h3>{{animal.name}}'s Health Conditions:</h3>
     <ul>
     {% for diag in diagnosis %}
         <li><h4>Condition: {{diag.health_condition}}</h4>
