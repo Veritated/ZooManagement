@@ -1,5 +1,5 @@
 from django import forms
-from .models import FeedingAction, FeedingAppointment
+from .models import FeedingAction, FeedingAppointment, Animal
 
 class AddFeedingActionForm(forms.ModelForm):
     class Meta:
@@ -19,8 +19,6 @@ class AddFeedingAppointmentForm(forms.ModelForm):
         widgets = {
             'time': forms.TimeInput(attrs={'type': 'time'}),
         }
-        from django import forms
-from .models import Animal
 
 class AddNewAnimalForm(forms.ModelForm):
     class Meta:
