@@ -1235,6 +1235,214 @@
     }
   },
   {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2024-05-03T21:59:11.982Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Lumpy skin disease",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2024-05-03T21:59:56.450Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Mac (Otter) - Rabies",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2024-05-03T22:00:08.299Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Randolf (Alligator) - Influenza",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2024-05-03T22:00:27.198Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Skal (Snake) - Lumpy skin disease",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2024-05-03T22:00:37.069Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "Pinky (Flamingo) - Avian pox",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2024-05-03T22:00:53.510Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "Ali (Emu) - Avian pox",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2024-05-03T22:01:20.044Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "Silver (Gorilla) - Rabies",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+      "action_time": "2024-05-03T22:01:29.268Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "Marcus (Frog) - Salmonella",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+      "action_time": "2024-05-03T22:01:44.371Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "10",
+      "object_repr": "Rambo (Hippo) - Pulmonary arterial hypertension",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+      "action_time": "2024-05-03T22:01:56.760Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "Buck (Moose) - Lumpy skin disease",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+      "action_time": "2024-05-03T22:02:10.982Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "Sudan (Kangaroo) - Influenza",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+      "action_time": "2024-05-03T22:02:22.362Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "13",
+      "object_repr": "Ellie (Bear) - Pulmonary arterial hypertension",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+      "action_time": "2024-05-03T22:03:23.177Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "14",
+      "object_repr": "Kelly (Alligator) - Influenza",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+      "action_time": "2024-05-03T22:03:32.859Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "15",
+      "object_repr": "Ember (Eagle) - Avian pox",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+      "action_time": "2024-05-03T22:03:44.150Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "16",
+      "object_repr": "Botsa (Deer) - Pulmonary arterial hypertension",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+      "action_time": "2024-05-03T22:03:56.983Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "17",
+      "object_repr": "Bubbles (Turtle) - Rabies",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -2253,6 +2461,14 @@
     }
   },
   {
+    "model": "zoo.healthcondition",
+    "pk": 6,
+    "fields": {
+      "name": "Lumpy skin disease",
+      "description": "A viral disease that affects cattle."
+    }
+  },
+  {
     "model": "zoo.animal",
     "pk": 3,
     "fields": {
@@ -2740,6 +2956,156 @@
       "treatment_status": "t",
       "animal": 3,
       "health_condition": 1
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 3,
+    "fields": {
+      "date": "2024-04-11",
+      "treatment_status": "c",
+      "animal": 8,
+      "health_condition": 2
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 4,
+    "fields": {
+      "date": "2024-04-18",
+      "treatment_status": "u",
+      "animal": 11,
+      "health_condition": 4
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 5,
+    "fields": {
+      "date": "2024-04-10",
+      "treatment_status": "t",
+      "animal": 33,
+      "health_condition": 6
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 6,
+    "fields": {
+      "date": "2024-03-13",
+      "treatment_status": "t",
+      "animal": 42,
+      "health_condition": 3
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 7,
+    "fields": {
+      "date": "2024-03-12",
+      "treatment_status": "u",
+      "animal": 30,
+      "health_condition": 3
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 8,
+    "fields": {
+      "date": "2024-02-14",
+      "treatment_status": "c",
+      "animal": 14,
+      "health_condition": 2
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 9,
+    "fields": {
+      "date": "2024-04-11",
+      "treatment_status": "t",
+      "animal": 36,
+      "health_condition": 5
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 10,
+    "fields": {
+      "date": "2024-04-30",
+      "treatment_status": "u",
+      "animal": 19,
+      "health_condition": 1
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 11,
+    "fields": {
+      "date": "2024-03-11",
+      "treatment_status": "t",
+      "animal": 6,
+      "health_condition": 6
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 12,
+    "fields": {
+      "date": "2024-02-12",
+      "treatment_status": "t",
+      "animal": 27,
+      "health_condition": 4
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 13,
+    "fields": {
+      "date": "2024-02-11",
+      "treatment_status": "t",
+      "animal": 4,
+      "health_condition": 1
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 14,
+    "fields": {
+      "date": "2023-12-19",
+      "treatment_status": "t",
+      "animal": 12,
+      "health_condition": 4
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 15,
+    "fields": {
+      "date": "2024-04-25",
+      "treatment_status": "t",
+      "animal": 39,
+      "health_condition": 3
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 16,
+    "fields": {
+      "date": "2024-01-14",
+      "treatment_status": "u",
+      "animal": 24,
+      "health_condition": 1
+    }
+  },
+  {
+    "model": "zoo.diagnosis",
+    "pk": 17,
+    "fields": {
+      "date": "2024-01-20",
+      "treatment_status": "c",
+      "animal": 34,
+      "health_condition": 2
     }
   }
 ]
