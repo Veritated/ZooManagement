@@ -12,12 +12,12 @@
   <h3>{{animal}}</h3>
 
   {% for diagnosis in animal_diagnoses %}
-  <p>{{diagnosis.health_condition}}</p>
+  <li>{{diagnosis.health_condition}} ({{diagnosis.status}}) since {{diagnosis.date}}</li>
   {% endfor %}
 </div>
 
 {% if not forloop.last %}
-<hr>
+<br>
 {% endif %}
 
 {% endfor %}

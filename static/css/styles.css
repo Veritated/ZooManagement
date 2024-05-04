@@ -3,12 +3,15 @@
 
 .sidebar-nav {
   max-width: 200px;
-  list-style: none;
 }
 
 body, button {
   font-family: "Inter", sans-serif;
   color: black;
+}
+
+li {
+  list-style: none;
 }
 
 a {

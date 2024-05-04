@@ -12,14 +12,14 @@
     <h3>{{condition.name}}</h3>
     <p>{{condition.description}}</p>
 
-    <h5>Affected Animals:</h5>
+    <h5><u>Affected Animals:</u></h5>
     {% for diagnosis in condition_diagnoses %}
-    <p>{{diagnosis.animal}} ({{diagnosis.status}})</p>
+    <li>{{diagnosis.animal}} ({{diagnosis.status}})</li>
     {% endfor %}
   </div>
 
   {% if not forloop.last %}
-  <hr>
+  <br>
   {% endif %}
 
 {% endfor %}

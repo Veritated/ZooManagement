@@ -18,6 +18,7 @@
     
     <h1 class="text-center">Nonatem Zoo</h1>
     <p class="text-center">A website developed by <em>Team 313</em>!</p>
+    <br>
     
     <div class="row">
       <div class="col-sm-3">
@@ -44,12 +45,23 @@
           <hr>
 
           <li><h5>Staff Actions</h5></li>
+
+          <li><a href="{% url 'new_animal' %}">Add Animal</a></li>
+
+          <li class="mt-1"><u>Feeding Management</u></li>
           <li><a href="{% url 'food_management_index' %}">Food To-Do</a></li>
           <li><a href="{% url 'view_feeding_appointments' %}">View Feeding Times</a></li>
           <li><a href="{% url 'add_feeding_appointment' %}">Add Feeding Time</a></li>
           <li><a href="{% url 'view_feeding_actions' %}">View Feeding Actions</a></li>
           <li><a href="{% url 'add_feeding_action' %}">Add Feeding Action</a></li>
-          <li><a href="{% url 'new_animal' %}">Add Animal</a></li>
+          
+          <li class="mt-1"><u>Animal Health</u></li>
+          <li><a href="{% url 'animal_health_index' %}">Health To-Do</a></li>
+          <li><a href="{% url 'view_conditions' %}">View Health Conditions</a></li>
+          <li><a href="{% url 'add_condition' %}">Add Health Condition</a></li>
+          <li><a href="{% url 'view_diagnoses' %}">View Diagnoses</a></li>
+          <li><a href="{% url 'add_diagnosis' %}">Add Diagnosis</a></li>
+
           {% comment %} TODO: conditions?, etc. {% endcomment %}
           {% endif %}
         </ul>
