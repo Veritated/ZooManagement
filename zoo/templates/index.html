@@ -10,16 +10,16 @@
 <img src="{% static 'images/mapcrop.jpg' %}" alt="ZooMap" usemap="#zoomap" height="90%" width="90%">
 
 <map name="zoomap">
-  <area class="exhibit" onmouseover="info('central jungle')" onmouseleave="closeInfo('central jungle')" shape="circle" coords="455,212,15" alt="lime" href=#>
-  <area class="exhibit" onmouseover="info('southern grassland')" onmouseleave="closeInfo('southern grassland')" shape="circle" coords="425,320,15" alt="green" href=#>
-  <area class="exhibit" onmouseover="info('northern pine')" onmouseleave="closeInfo('northern pine')" shape="circle" coords="185,200,15" alt="orange" href=#>
-  <area class="exhibit" onmouseover="info('western jungle')" onmouseleave="closeInfo('western jungle')" shape="circle" coords="297,265,15" alt="yellow" href=#>
-  <area class="exhibit" onmouseover="info('southern outback')" onmouseleave="closeInfo('southern outback')" shape="circle" coords="292,320,15" alt="blue-gray" href=#>
-  <area class="exhibit" onmouseover="info('southern swamp')" onmouseleave="closeInfo('southern swamp')" shape="circle" coords="560,395,15" alt="pink" href=#>
-  <area class="exhibit" onmouseover="info('eastern arial')" onmouseleave="closeInfo('eastern arial')" shape="circle" coords="665,300,15" alt="grey" href=#>
-  <area class="exhibit" onmouseover="info('eastern reptile')" onmouseleave="closeInfo('eastern reptile')" shape="circle" coords="680,190,15" alt="purple" href=#>
-  <area class="exhibit" onmouseover="info('eastern arctic')" onmouseleave="closeInfo('eastern arctic')" shape="circle" coords="600,120,15" alt="brown" href=#>
-  <area class="exhibit" onmouseover="info('northern water')" onmouseleave="closeInfo('northern water')" shape="circle" coords="395,70,15" alt="blue" href=#>
+  <area class="exhibit" onmouseover="info('central jungle')" onmouseleave="closeInfo('central jungle')" shape="circle" coords="455,212,15" alt="lime" href="{% url 'SpecificExhibit' 'Central Jungle' %}">
+  <area class="exhibit" onmouseover="info('southern grassland')" onmouseleave="closeInfo('southern grassland')" shape="circle" coords="425,320,15" alt="green" href="{% url 'SpecificExhibit' 'Southern Grassland' %}">
+  <area class="exhibit" onmouseover="info('northern pine')" onmouseleave="closeInfo('northern pine')" shape="circle" coords="185,200,15" alt="orange" href="{% url 'SpecificExhibit' 'Northern Pine' %}">
+  <area class="exhibit" onmouseover="info('western jungle')" onmouseleave="closeInfo('western jungle')" shape="circle" coords="297,265,15" alt="yellow" href="{% url 'SpecificExhibit' 'Western Jungle' %}">
+  <area class="exhibit" onmouseover="info('southern outback')" onmouseleave="closeInfo('southern outback')" shape="circle" coords="292,320,15" alt="blue-gray" href="{% url 'SpecificExhibit' 'Southern Outback' %}">
+  <area class="exhibit" onmouseover="info('southern swamp')" onmouseleave="closeInfo('southern swamp')" shape="circle" coords="560,395,15" alt="pink" href="{% url 'SpecificExhibit' 'Southern Swamp' %}">
+  <area class="exhibit" onmouseover="info('eastern arial')" onmouseleave="closeInfo('eastern arial')" shape="circle" coords="665,300,15" alt="grey" href="{% url 'SpecificExhibit' 'Eastern Arial' %}">
+  <area class="exhibit" onmouseover="info('eastern reptile')" onmouseleave="closeInfo('eastern reptile')" shape="circle" coords="680,190,15" alt="purple" href="{% url 'SpecificExhibit' 'Eastern Reptile' %}">
+  <area class="exhibit" onmouseover="info('eastern arctic')" onmouseleave="closeInfo('eastern arctic')" shape="circle" coords="600,120,15" alt="brown" href="{% url 'SpecificExhibit' 'Eastern Arctic' %}">
+  <area class="exhibit" onmouseover="info('northern water')" onmouseleave="closeInfo('northern water')" shape="circle" coords="395,70,15" alt="blue" href="{% url 'SpecificExhibit' 'Northern Water' %}">
 </map>
 
 <div id="northern pine" class="infopanel">
