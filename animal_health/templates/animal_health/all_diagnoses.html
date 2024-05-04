@@ -6,19 +6,19 @@
 
 {% block content %}
 
-{% for exhibit_name, exhibit_data in data.items %}
+{% for animal, animal_diagnoses in diagnoses.items %}
 
-  <div>
-    <h3>{{exhibit_name}}</h3>
+<div>
+  <h3>{{animal}}</h3>
 
-    {% for action in exhibit_data.actions %}
-    <p>{{action.formatted_date}} @ {{action.formatted_time}}</p>
-    {% endfor %}
-  </div>
+  {% for diagnosis in animal_diagnoses %}
+  <p>{{diagnosis.health_condition}}</p>
+  {% endfor %}
+</div>
 
-  {% if not forloop.last %}
-  <hr>
-  {% endif %}
+{% if not forloop.last %}
+<hr>
+{% endif %}
 
 {% endfor %}
 

@@ -71,6 +71,16 @@ class Diagnosis(models.Model):
         
     def __str__(self) -> str:
         return f'{self.animal} - {self.health_condition}'
+    
+    @property
+    def status(self) -> str:
+        # this is lame but whatever
+        if self.treatment_status == 't':
+            return 'Treated'
+        elif self.treatment_status == 'u':
+            return 'Untreated'
+        else:
+            return 'Chronic'
 
 
 class FeedingAppointment(models.Model):

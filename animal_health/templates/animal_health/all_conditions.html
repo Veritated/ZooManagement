@@ -6,13 +6,15 @@
 
 {% block content %}
 
-{% for exhibit_name, exhibit_data in data.items %}
+{% for condition, condition_diagnoses in conditions.items %}
 
   <div>
-    <h3>{{exhibit_name}}</h3>
+    <h3>{{condition.name}}</h3>
+    <p>{{condition.description}}</p>
 
-    {% for action in exhibit_data.actions %}
-    <p>{{action.formatted_date}} @ {{action.formatted_time}}</p>
+    <h5>Affected Animals:</h5>
+    {% for diagnosis in condition_diagnoses %}
+    <p>{{diagnosis.animal}} ({{diagnosis.status}})</p>
     {% endfor %}
   </div>
 
