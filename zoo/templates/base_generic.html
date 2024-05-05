@@ -59,7 +59,7 @@
           <li><a href="{% url 'animal_health_index' %}">Health To-Do</a></li>
           <li><a href="{% url 'view_conditions' %}">View Health Conditions</a></li>
           <li><a href="{% url 'add_condition' %}">Add Health Condition</a></li>
-          <li><a href="{% url 'view_diagnoses' %}">View Diagnoses</a></li>
+          {% comment %} <li><a href="{% url 'view_diagnoses' %}">View Diagnoses</a></li> {% endcomment %}
           <li><a href="{% url 'add_diagnosis' %}">Add Diagnosis</a></li>
 
           {% comment %} TODO: conditions?, etc. {% endcomment %}

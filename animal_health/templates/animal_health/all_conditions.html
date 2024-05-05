@@ -14,7 +14,7 @@
 
     <h5><u>Affected Animals:</u></h5>
     {% for diagnosis in condition_diagnoses %}
-    <li>{{diagnosis.animal}} ({{diagnosis.status}})</li>
+    <li>{{diagnosis.animal}} (<a href="{% url 'update_diagnosis' diagnosis.pk %}">{{diagnosis.status}}</a>)</li>
     {% endfor %}
   </div>
 
