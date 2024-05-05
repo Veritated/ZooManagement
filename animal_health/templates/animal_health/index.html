@@ -1,0 +1,26 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>Nonatem Zoo | Animal Health</title>
+{% endblock title %}
+
+{% block content %}
+
+{% for animal_name, animal_data in data.items %}
+
+  <div>
+    <h3>{{animal_name}}</h3>
+
+    <h5><u>untreated conditions:</u></h5>
+    {% for diagnosis in animal_data %}
+    <a href="{% url 'update_diagnosis' diagnosis.pk %}">{{diagnosis.health_condition.name}}</a> since {{diagnosis.date}}
+    {% endfor %}
+  </div>
+
+  {% if not forloop.last %}
+  <br>
+  {% endif %}
+
+{% endfor %}
+
+{% endblock %}

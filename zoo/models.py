@@ -3,8 +3,8 @@ from datetime import datetime, time
 
 from django.db import models
 from django.contrib.auth.models import User
+from django.urls import reverse
 
-# Create your models here.
 
 class Species(models.Model):
     common_name = models.CharField(max_length=255)
@@ -71,6 +71,19 @@ class Diagnosis(models.Model):
         
     def __str__(self) -> str:
         return f'{self.animal} - {self.health_condition}'
+    
+    @property
+    def status(self) -> str:
+        # this is lame but whatever
+        if self.treatment_status == 't':
+            return 'Treated'
+        elif self.treatment_status == 'u':
+            return 'Untreated'
+        else:
+            return 'Chronic'
+        
+    def get_absolute_url(self):
+        return reverse("update_diagnosis", kwargs={"pk": self.pk})
 
 
 class FeedingAppointment(models.Model):

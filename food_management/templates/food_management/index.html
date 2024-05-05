@@ -14,24 +14,24 @@
   <div>
     <h3>{{exhibit_name}}</h3>
 
-    <h5><u>today's appointments:</u></h5>
+    <h5>today's appointments:</h5>
     {% for k in exhibit_data.appointments %}
     <p>{{k.formatted_time}}</p>
     {% endfor %}
 
-    <h5><u>today's actions:</u></h5>
+    <h5>today's actions:</h5>
     {% for k in exhibit_data.actions %}
     <p>{{k.formatted_time}}</p>
     {% endfor %}
 
-    <h5><u>unfulfilled appointments:</u></h5>
+    <h5>unfulfilled appointments:</h5>
     {% for appointment, is_late in exhibit_data.unfulfilled_appointments.items %}
     <p>{{appointment.formatted_time}} {% if is_late %}(Late){% endif %}</p>
     {% endfor %}
   </div>
 
   {% if not forloop.last %}
-  <hr>
+  <br>
   {% endif %}
 
 {% endfor %}

@@ -1,0 +1,27 @@
+{% extends "base_generic.html" %}
+
+{% block title %}
+<title>Nonatem Zoo | Health Conditions</title>
+{% endblock title %}
+
+{% block content %}
+
+{% for condition, condition_diagnoses in conditions.items %}
+
+  <div>
+    <h3>{{condition.name}}</h3>
+    <p>{{condition.description}}</p>
+
+    <h5><u>Affected Animals:</u></h5>
+    {% for diagnosis in condition_diagnoses %}
+    <li>{{diagnosis.animal}} (<a href="{% url 'update_diagnosis' diagnosis.pk %}">{{diagnosis.status}}</a>)</li>
+    {% endfor %}
+  </div>
+
+  {% if not forloop.last %}
+  <br>
+  {% endif %}
+
+{% endfor %}
+
+{% endblock %}

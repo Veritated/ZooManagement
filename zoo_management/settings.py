@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'zoo',
     'food_management',
+    'animal_health',
 ]
 
 MIDDLEWARE = [
