@@ -1,0 +1,5176 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2024-04-11T03:30:58.199Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Species object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2024-04-11T03:32:31.198Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Species object (1)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2024-04-11T03:39:06.764Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Species object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2024-04-11T03:39:18.496Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Species object (2)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2024-04-11T03:40:05.580Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Species object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2024-04-11T03:41:35.687Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Species object (1)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2024-04-11T03:52:47.957Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Chimpanzee (Pan troglodytes)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2024-04-11T03:59:04.195Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Exhibit A",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2024-04-11T03:59:06.292Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee (Pan troglodytes))",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2024-04-11T04:03:48.869Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "3 | 18:00:00",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2024-04-11T04:04:00.879Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "2 | 12:00:00",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2024-04-11T04:26:08.662Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Pulmonary arterial hypertension",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2024-04-11T04:26:26.096Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee (Pan troglodytes)) - Pulmonary arterial hypertension",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2024-04-11T04:35:52.629Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Treatment status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2024-04-11T04:35:56.817Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Treatment status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2024-04-11T04:35:59.477Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Treatment status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2024-04-11T04:38:11.227Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2024-04-11T04:38:29.485Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Treatment status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2024-04-11T04:39:24.298Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Treatment status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2024-04-11T04:39:30.642Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Treatment status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2024-04-11T04:39:34.753Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Treatment status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2024-04-11T04:50:34.123Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Macaroni penguin (Eudyptes chrysolophus)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2024-04-11T04:52:02.343Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Penne (Macaroni penguin)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2024-04-11T04:52:46.755Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Thursday | 6:00 PM",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Animals\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2024-04-11T04:55:29.365Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Exhibit A",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"name\": \"animal\", \"object\": \"Penne (Macaroni penguin)\", \"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2024-04-11T05:00:43.238Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2024-04-11T05:00:45.596Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2024-04-11T05:00:50.798Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Death date\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2024-04-11T05:00:55.266Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Death date\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2024-04-11T05:01:04.700Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2024-04-11T05:03:55.769Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Macaroni penguin (Eudyptes chrysolophus)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2024-04-11T05:03:59.237Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Chimpanzee (Pan troglodytes)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2024-04-12T18:28:07.809Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Exhibit A Wednesday | 12:00 PM",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2024-04-12T18:29:25.480Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Exhibit A Thursday | 6:29 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2024-04-12T18:37:22.789Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "zk123",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2024-04-12T18:37:43.762Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "zk123",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2024-04-12T18:38:31.251Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Zookeeper",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2024-04-12T18:39:15.734Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "Veterinarian",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2024-04-12T18:39:46.220Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "Veterinarian",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2024-04-12T18:40:58.480Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "zk123",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2024-04-12T18:42:24.604Z",
+            "user": 2,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Exhibit A Thursday | 6:00 PM | 6:29 PM",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2024-04-12T19:00:20.622Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "vet456",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2024-04-12T19:00:34.205Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "vet456",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2024-05-02T17:25:31.029Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Bear (Ursidae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2024-05-02T17:25:44.455Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Moose (Alces alces)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2024-05-02T17:26:04.322Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Alligator (Alligator mississippiensis)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2024-05-02T17:26:19.069Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "Otter (Lutrinae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2024-05-02T17:26:39.039Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Tortoise (Testudinidae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2024-05-02T17:26:57.270Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "Gorilla (Gorilla)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2024-05-02T17:27:17.158Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "Orangutan (Pongo pygmaeus)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2024-05-02T17:27:31.396Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Tiger (Panthera Tigris)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2024-05-02T17:27:44.168Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Hippo (Hippopotamus Amphibius)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2024-05-02T17:27:59.097Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "13",
+            "object_repr": "Bison (Bison)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2024-05-02T17:28:09.403Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "Horse (Equus caballus)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2024-05-02T17:28:24.990Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "Deer (Cervidae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2024-05-02T17:28:38.683Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "Kangaroo (Macropodidae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2024-05-02T17:28:49.834Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Rhino (Rhinocerotidae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2024-05-02T17:29:02.059Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Emu (Dromaius Novaehollandiae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2024-05-02T17:29:12.156Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "Snake (Serpentes)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2024-05-02T17:29:23.338Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "20",
+            "object_repr": "Turtle (Testudines)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2024-05-02T17:29:32.905Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "21",
+            "object_repr": "Frog (Anura)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2024-05-02T17:29:45.739Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "22",
+            "object_repr": "Eagle (Accipitridae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2024-05-02T17:29:56.627Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "23",
+            "object_repr": "Heron (Ardeidae)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2024-05-02T17:30:10.791Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "Flamingo (Phoenicopterus)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2024-05-02T17:32:23.240Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Northern Pine Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2024-05-02T17:33:55.635Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Northern Water Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2024-05-02T17:35:07.089Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Central Jungle Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2024-05-02T17:36:03.969Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "Western Jungle Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2024-05-02T17:36:36.474Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "6",
+            "object_repr": "Southern Swamp Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2024-05-02T17:37:22.309Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "7",
+            "object_repr": "Southern Grass land Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2024-05-02T17:37:48.540Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "8",
+            "object_repr": "Southern Outback Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2024-05-02T17:38:13.951Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "9",
+            "object_repr": "Eastern Reptile Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2024-05-02T17:38:37.867Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "10",
+            "object_repr": "Eastern Arctic Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2024-05-02T17:39:07.487Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "11",
+            "object_repr": "Eastern Arial Exhibit",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2024-05-02T17:43:48.397Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Northern Pine Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Ursa (Bear)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2024-05-02T17:46:42.662Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Northern Pine Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Ellie (Bear)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Eli (Bear)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Buck (Moose)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Chuck (Moose)\"}}, {\"changed\": {\"name\": \"animal\", \"object\": \"Ursa (Bear)\", \"fields\": [\"Description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2024-05-02T17:46:46.973Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Northern Pine Exhibit",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2024-05-02T17:51:00.200Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Northern Water Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Mac (Otter)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Rocko (Otter)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Phil (Otter)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Randolf (Alligator)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Kelly (Alligator)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2024-05-02T17:55:06.383Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Central Jungle Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Premi (Chimpanzee)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Silver (Gorilla)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Bolo (Orangutan)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Mango (Chimpanzee)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2024-05-02T17:57:32.961Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "Western Jungle Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Stripes (Tiger)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Pickles (Tiger)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2024-05-02T17:58:48.011Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "6",
+            "object_repr": "Southern Swamp Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Rambo (Hippo)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2024-05-02T18:04:37.561Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "7",
+            "object_repr": "Southern Grass land Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Mark (Bison)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Ello (Bison)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Rapper (Horse)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Nami (Deer)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Botsa (Deer)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Chile (Deer)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2024-05-02T18:10:26.198Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "8",
+            "object_repr": "Southern Outback Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Kicker (Kangaroo)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Sudan (Kangaroo)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Rhinosaur (Rhino)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Ekans (Emu)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Ali (Emu)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Risiki (Emu)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2024-05-02T18:43:58.964Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "9",
+            "object_repr": "Eastern Reptile Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Slither (Snake)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Skal (Snake)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Bubbles (Turtle)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Jupiter (Frog)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Marcus (Frog)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+            "action_time": "2024-05-02T18:45:32.998Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "10",
+            "object_repr": "Eastern Arctic Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Milly (Macaroni penguin)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Jill (Macaroni penguin)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+            "action_time": "2024-05-02T18:48:12.060Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "11",
+            "object_repr": "Eastern Arial Exhibit",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"animal\", \"object\": \"Ember (Eagle)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Blue (Heron)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Purple (Heron)\"}}, {\"added\": {\"name\": \"animal\", \"object\": \"Pinky (Flamingo)\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+            "action_time": "2024-05-02T21:17:53.616Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Penne (Macaroni penguin)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+            "action_time": "2024-05-02T21:17:58.706Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Joe (Chimpanzee)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+            "action_time": "2024-05-02T21:18:03.039Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Exhibit A",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 90,
+        "fields": {
+            "action_time": "2024-05-02T21:45:38.752Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Ursa (Bear) - Pulmonary arterial hypertension",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 91,
+        "fields": {
+            "action_time": "2024-05-02T21:52:53.421Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Ursa (Bear) - Pulmonary arterial hypertension",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 92,
+        "fields": {
+            "action_time": "2024-05-03T21:51:07.405Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Rabies",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 93,
+        "fields": {
+            "action_time": "2024-05-03T21:51:31.924Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Avian pox",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 94,
+        "fields": {
+            "action_time": "2024-05-03T21:51:59.288Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Influenza",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 95,
+        "fields": {
+            "action_time": "2024-05-03T21:54:06.585Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "Salmonella",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 96,
+        "fields": {
+            "action_time": "2024-05-03T21:59:11.982Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "Lumpy skin disease",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 97,
+        "fields": {
+            "action_time": "2024-05-03T21:59:56.450Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "Mac (Otter) - Rabies",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 98,
+        "fields": {
+            "action_time": "2024-05-03T22:00:08.299Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Randolf (Alligator) - Influenza",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 99,
+        "fields": {
+            "action_time": "2024-05-03T22:00:27.198Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "Skal (Snake) - Lumpy skin disease",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 100,
+        "fields": {
+            "action_time": "2024-05-03T22:00:37.069Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "6",
+            "object_repr": "Pinky (Flamingo) - Avian pox",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 101,
+        "fields": {
+            "action_time": "2024-05-03T22:00:53.510Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "7",
+            "object_repr": "Ali (Emu) - Avian pox",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 102,
+        "fields": {
+            "action_time": "2024-05-03T22:01:20.044Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "8",
+            "object_repr": "Silver (Gorilla) - Rabies",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 103,
+        "fields": {
+            "action_time": "2024-05-03T22:01:29.268Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "9",
+            "object_repr": "Marcus (Frog) - Salmonella",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 104,
+        "fields": {
+            "action_time": "2024-05-03T22:01:44.371Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "10",
+            "object_repr": "Rambo (Hippo) - Pulmonary arterial hypertension",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 105,
+        "fields": {
+            "action_time": "2024-05-03T22:01:56.760Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "11",
+            "object_repr": "Buck (Moose) - Lumpy skin disease",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 106,
+        "fields": {
+            "action_time": "2024-05-03T22:02:10.982Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "12",
+            "object_repr": "Sudan (Kangaroo) - Influenza",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 107,
+        "fields": {
+            "action_time": "2024-05-03T22:02:22.362Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "13",
+            "object_repr": "Ellie (Bear) - Pulmonary arterial hypertension",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 108,
+        "fields": {
+            "action_time": "2024-05-03T22:03:23.177Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "14",
+            "object_repr": "Kelly (Alligator) - Influenza",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 109,
+        "fields": {
+            "action_time": "2024-05-03T22:03:32.859Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "15",
+            "object_repr": "Ember (Eagle) - Avian pox",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 110,
+        "fields": {
+            "action_time": "2024-05-03T22:03:44.150Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "16",
+            "object_repr": "Botsa (Deer) - Pulmonary arterial hypertension",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 111,
+        "fields": {
+            "action_time": "2024-05-03T22:03:56.983Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "17",
+            "object_repr": "Bubbles (Turtle) - Rabies",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 112,
+        "fields": {
+            "action_time": "2024-05-04T03:41:22.847Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "18",
+            "object_repr": "Pinky (Flamingo) - Influenza",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 113,
+        "fields": {
+            "action_time": "2024-05-05T05:25:21.763Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "Northern Pine Exhibit | Wednesday | 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 114,
+        "fields": {
+            "action_time": "2024-05-05T05:25:30.260Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "Northern Pine Exhibit | Wednesday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 115,
+        "fields": {
+            "action_time": "2024-05-05T05:25:38.320Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "6",
+            "object_repr": "Northern Pine Exhibit | Wednesday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 116,
+        "fields": {
+            "action_time": "2024-05-05T05:25:48.840Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "7",
+            "object_repr": "Northern Pine Exhibit | Friday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 117,
+        "fields": {
+            "action_time": "2024-05-05T05:26:07.154Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "8",
+            "object_repr": "Northern Water Exhibit | Tuesday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 118,
+        "fields": {
+            "action_time": "2024-05-05T05:26:13.604Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "9",
+            "object_repr": "Northern Water Exhibit | Thursday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 119,
+        "fields": {
+            "action_time": "2024-05-05T05:26:56.788Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "10",
+            "object_repr": "Central Jungle Exhibit | Tuesday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 120,
+        "fields": {
+            "action_time": "2024-05-05T05:27:03.756Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "11",
+            "object_repr": "Central Jungle Exhibit | Thursday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 121,
+        "fields": {
+            "action_time": "2024-05-05T05:27:11.361Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "12",
+            "object_repr": "Central Jungle Exhibit | Saturday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 122,
+        "fields": {
+            "action_time": "2024-05-05T05:27:20.929Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "13",
+            "object_repr": "Western Jungle Exhibit | Monday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 123,
+        "fields": {
+            "action_time": "2024-05-05T05:27:37.588Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "14",
+            "object_repr": "Western Jungle Exhibit | Wednesday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 124,
+        "fields": {
+            "action_time": "2024-05-05T05:27:43.850Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "15",
+            "object_repr": "Western Jungle Exhibit | Friday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 125,
+        "fields": {
+            "action_time": "2024-05-05T05:27:53.626Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "16",
+            "object_repr": "Western Jungle Exhibit | Sunday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 126,
+        "fields": {
+            "action_time": "2024-05-05T05:28:19.761Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "17",
+            "object_repr": "Southern Swamp Exhibit | Monday | 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 127,
+        "fields": {
+            "action_time": "2024-05-05T05:28:29.603Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "18",
+            "object_repr": "Southern Swamp Exhibit | Thursday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 128,
+        "fields": {
+            "action_time": "2024-05-05T05:28:50.663Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "19",
+            "object_repr": "Southern Swamp Exhibit | Sunday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 129,
+        "fields": {
+            "action_time": "2024-05-05T05:29:03.210Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "20",
+            "object_repr": "Southern Grass land Exhibit | Monday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 130,
+        "fields": {
+            "action_time": "2024-05-05T05:29:11.242Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "21",
+            "object_repr": "Southern Grass land Exhibit | Tuesday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 131,
+        "fields": {
+            "action_time": "2024-05-05T05:29:17.261Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "22",
+            "object_repr": "Southern Grass land Exhibit | Wednesday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 132,
+        "fields": {
+            "action_time": "2024-05-05T05:29:22.494Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "23",
+            "object_repr": "Southern Grass land Exhibit | Thursday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 133,
+        "fields": {
+            "action_time": "2024-05-05T05:29:29.930Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "24",
+            "object_repr": "Southern Grass land Exhibit | Friday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 134,
+        "fields": {
+            "action_time": "2024-05-05T05:29:53.695Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "25",
+            "object_repr": "Southern Grass land Exhibit | Saturday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 135,
+        "fields": {
+            "action_time": "2024-05-05T05:30:06.099Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "26",
+            "object_repr": "Southern Grass land Exhibit | Sunday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 136,
+        "fields": {
+            "action_time": "2024-05-05T05:30:43.676Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "27",
+            "object_repr": "Southern Outback Exhibit | Monday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 137,
+        "fields": {
+            "action_time": "2024-05-05T05:30:50.854Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "28",
+            "object_repr": "Southern Outback Exhibit | Friday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 138,
+        "fields": {
+            "action_time": "2024-05-05T05:31:15.743Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "29",
+            "object_repr": "Eastern Reptile Exhibit | Monday | 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 139,
+        "fields": {
+            "action_time": "2024-05-05T05:31:26.236Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "30",
+            "object_repr": "Eastern Reptile Exhibit | Thursday | 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 140,
+        "fields": {
+            "action_time": "2024-05-05T05:31:31.962Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "31",
+            "object_repr": "Eastern Reptile Exhibit | Thursday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 141,
+        "fields": {
+            "action_time": "2024-05-05T05:31:38.768Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "32",
+            "object_repr": "Eastern Reptile Exhibit | Sunday | 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 142,
+        "fields": {
+            "action_time": "2024-05-05T05:32:00.848Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "33",
+            "object_repr": "Eastern Arctic Exhibit | Monday | 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 143,
+        "fields": {
+            "action_time": "2024-05-05T05:32:12.649Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "34",
+            "object_repr": "Eastern Arctic Exhibit | Wednesday | 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 144,
+        "fields": {
+            "action_time": "2024-05-05T05:32:23.069Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "35",
+            "object_repr": "Eastern Arctic Exhibit | Friday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 145,
+        "fields": {
+            "action_time": "2024-05-05T05:34:46.669Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "36",
+            "object_repr": "Eastern Arial Exhibit | Wednesday | 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 146,
+        "fields": {
+            "action_time": "2024-05-05T05:34:58.365Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "37",
+            "object_repr": "Eastern Arial Exhibit | Wednesday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 147,
+        "fields": {
+            "action_time": "2024-05-05T05:35:06.361Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "38",
+            "object_repr": "Eastern Arial Exhibit | Saturday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 148,
+        "fields": {
+            "action_time": "2024-05-05T05:35:25.362Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "39",
+            "object_repr": "Eastern Arial Exhibit | Monday | 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 149,
+        "fields": {
+            "action_time": "2024-05-05T05:35:30.288Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "40",
+            "object_repr": "Eastern Arial Exhibit | Monday | 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 150,
+        "fields": {
+            "action_time": "2024-05-05T05:42:44.406Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "m.noah",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 151,
+        "fields": {
+            "action_time": "2024-05-05T05:42:53.022Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "m.noah",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 152,
+        "fields": {
+            "action_time": "2024-05-05T05:44:21.817Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "s.nate",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 153,
+        "fields": {
+            "action_time": "2024-05-05T05:44:59.878Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "s.nate",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 154,
+        "fields": {
+            "action_time": "2024-05-05T05:45:50.505Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "a.emily",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 155,
+        "fields": {
+            "action_time": "2024-05-05T05:46:13.211Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "a.emily",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 156,
+        "fields": {
+            "action_time": "2024-05-05T05:49:31.088Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Northern Pine Exhibit | May 6, 2024 7:55 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 157,
+        "fields": {
+            "action_time": "2024-05-05T05:51:10.615Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "Northern Pine Exhibit | May 6, 2024 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 158,
+        "fields": {
+            "action_time": "2024-05-05T05:51:49.123Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "3",
+            "object_repr": "Northern Pine Exhibit | May 6, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 159,
+        "fields": {
+            "action_time": "2024-05-05T05:57:40.437Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "4",
+            "object_repr": "Northern Pine Exhibit | May 8, 2024 6:01 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 160,
+        "fields": {
+            "action_time": "2024-05-05T05:58:05.209Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "5",
+            "object_repr": "Northern Pine Exhibit | May 8, 2024 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 161,
+        "fields": {
+            "action_time": "2024-05-05T05:58:22.182Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "6",
+            "object_repr": "Northern Pine Exhibit | May 5, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 162,
+        "fields": {
+            "action_time": "2024-05-05T05:58:30.138Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "6",
+            "object_repr": "Northern Pine Exhibit | May 8, 2024 6:00 PM",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Date time\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 163,
+        "fields": {
+            "action_time": "2024-05-05T05:58:53.112Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "7",
+            "object_repr": "Northern Pine Exhibit | May 10, 2024 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 164,
+        "fields": {
+            "action_time": "2024-05-05T05:59:09.886Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "8",
+            "object_repr": "Northern Water Exhibit | May 5, 2024 12:05 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 165,
+        "fields": {
+            "action_time": "2024-05-05T05:59:33.422Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "9",
+            "object_repr": "Northern Water Exhibit | May 9, 2024 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 166,
+        "fields": {
+            "action_time": "2024-05-05T06:00:20.557Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "10",
+            "object_repr": "Central Jungle Exhibit | May 7, 2024 6:03 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 167,
+        "fields": {
+            "action_time": "2024-05-05T06:01:12.103Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "11",
+            "object_repr": "Central Jungle Exhibit | May 9, 2024 12:10 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 168,
+        "fields": {
+            "action_time": "2024-05-05T06:01:55.408Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "12",
+            "object_repr": "Central Jungle Exhibit | May 9, 2024 5:52 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 169,
+        "fields": {
+            "action_time": "2024-05-05T06:02:03.710Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "12",
+            "object_repr": "Central Jungle Exhibit | May 11, 2024 5:52 PM",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Date time\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 170,
+        "fields": {
+            "action_time": "2024-05-05T06:02:36.000Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "13",
+            "object_repr": "Western Jungle Exhibit | May 6, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 171,
+        "fields": {
+            "action_time": "2024-05-05T06:02:47.110Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "14",
+            "object_repr": "Western Jungle Exhibit | May 6, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 172,
+        "fields": {
+            "action_time": "2024-05-05T06:02:59.942Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "15",
+            "object_repr": "Western Jungle Exhibit | May 8, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 173,
+        "fields": {
+            "action_time": "2024-05-05T06:03:18.240Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "16",
+            "object_repr": "Western Jungle Exhibit | May 10, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 174,
+        "fields": {
+            "action_time": "2024-05-05T06:03:31.384Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "17",
+            "object_repr": "Western Jungle Exhibit | May 11, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 175,
+        "fields": {
+            "action_time": "2024-05-05T06:03:45.972Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "13",
+            "object_repr": "Western Jungle Exhibit | May 6, 2024 6:00 PM",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 176,
+        "fields": {
+            "action_time": "2024-05-05T06:03:49.479Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "14",
+            "object_repr": "Western Jungle Exhibit | May 6, 2024 6:00 PM",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 177,
+        "fields": {
+            "action_time": "2024-05-05T06:03:51.422Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "15",
+            "object_repr": "Western Jungle Exhibit | May 8, 2024 6:00 PM",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 178,
+        "fields": {
+            "action_time": "2024-05-05T06:04:33.741Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "18",
+            "object_repr": "Southern Grass land Exhibit | May 5, 2024 12:07 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 179,
+        "fields": {
+            "action_time": "2024-05-05T06:04:41.960Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "19",
+            "object_repr": "Southern Grass land Exhibit | May 6, 2024 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 180,
+        "fields": {
+            "action_time": "2024-05-05T06:04:50.482Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "20",
+            "object_repr": "Southern Grass land Exhibit | May 7, 2024 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 181,
+        "fields": {
+            "action_time": "2024-05-05T06:05:00.879Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "21",
+            "object_repr": "Southern Grass land Exhibit | May 8, 2024 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 182,
+        "fields": {
+            "action_time": "2024-05-05T06:05:15.281Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "22",
+            "object_repr": "Southern Grass land Exhibit | May 9, 2024 12:03 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 183,
+        "fields": {
+            "action_time": "2024-05-05T06:05:21.696Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "21",
+            "object_repr": "Southern Grass land Exhibit | May 8, 2024 12:00 PM",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 184,
+        "fields": {
+            "action_time": "2024-05-05T06:05:24.222Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "20",
+            "object_repr": "Southern Grass land Exhibit | May 7, 2024 12:00 PM",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 185,
+        "fields": {
+            "action_time": "2024-05-05T06:05:27.274Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "19",
+            "object_repr": "Southern Grass land Exhibit | May 6, 2024 12:00 PM",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 186,
+        "fields": {
+            "action_time": "2024-05-05T06:05:30.120Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "18",
+            "object_repr": "Southern Grass land Exhibit | May 5, 2024 12:07 PM",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 187,
+        "fields": {
+            "action_time": "2024-05-05T06:05:47.170Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "23",
+            "object_repr": "Southern Grass land Exhibit | May 10, 2024 12:10 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 188,
+        "fields": {
+            "action_time": "2024-05-05T06:06:04.076Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "24",
+            "object_repr": "Southern Grass land Exhibit | May 11, 2024 12:01 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 189,
+        "fields": {
+            "action_time": "2024-05-05T06:06:34.742Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "25",
+            "object_repr": "Southern Outback Exhibit | May 6, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 190,
+        "fields": {
+            "action_time": "2024-05-05T06:06:47.124Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "26",
+            "object_repr": "Southern Outback Exhibit | May 10, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 191,
+        "fields": {
+            "action_time": "2024-05-05T06:07:21.156Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "27",
+            "object_repr": "Eastern Reptile Exhibit | May 6, 2024 6:09 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 192,
+        "fields": {
+            "action_time": "2024-05-05T06:07:40.870Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "28",
+            "object_repr": "Eastern Reptile Exhibit | May 9, 2024 6:06 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 193,
+        "fields": {
+            "action_time": "2024-05-05T06:07:53.568Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "29",
+            "object_repr": "Eastern Reptile Exhibit | May 9, 2024 6:03 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 194,
+        "fields": {
+            "action_time": "2024-05-05T06:08:10.731Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "30",
+            "object_repr": "Eastern Reptile Exhibit | May 12, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 195,
+        "fields": {
+            "action_time": "2024-05-05T06:08:17.984Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "30",
+            "object_repr": "Eastern Reptile Exhibit | May 5, 2024 6:00 PM",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Date time\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 196,
+        "fields": {
+            "action_time": "2024-05-05T06:09:06.812Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "31",
+            "object_repr": "Eastern Arial Exhibit | May 8, 2024 12:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 197,
+        "fields": {
+            "action_time": "2024-05-05T06:09:17.325Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "32",
+            "object_repr": "Eastern Arial Exhibit | May 8, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 198,
+        "fields": {
+            "action_time": "2024-05-05T06:09:35.930Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "33",
+            "object_repr": "Eastern Arial Exhibit | May 11, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 199,
+        "fields": {
+            "action_time": "2024-05-05T06:10:00.952Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "34",
+            "object_repr": "Eastern Arial Exhibit | May 6, 2024 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 200,
+        "fields": {
+            "action_time": "2024-05-05T06:11:35.879Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "35",
+            "object_repr": "Eastern Arial Exhibit | May 5, 2024 6:00 PM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 201,
+        "fields": {
+            "action_time": "2024-05-05T06:11:40.786Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "35",
+            "object_repr": "Eastern Arial Exhibit | May 6, 2024 6:00 PM",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Date time\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 202,
+        "fields": {
+            "action_time": "2024-05-05T06:11:52.662Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "36",
+            "object_repr": "Eastern Arctic Exhibit | May 5, 2024 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 203,
+        "fields": {
+            "action_time": "2024-05-05T06:12:05.546Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "37",
+            "object_repr": "Eastern Arctic Exhibit | May 8, 2024 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 204,
+        "fields": {
+            "action_time": "2024-05-05T06:12:20.413Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "38",
+            "object_repr": "Eastern Arctic Exhibit | May 10, 2024 6:00 AM",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add exhibit",
+            "content_type": 7,
+            "codename": "add_exhibit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change exhibit",
+            "content_type": 7,
+            "codename": "change_exhibit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete exhibit",
+            "content_type": 7,
+            "codename": "delete_exhibit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view exhibit",
+            "content_type": 7,
+            "codename": "view_exhibit"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add health condition",
+            "content_type": 8,
+            "codename": "add_healthcondition"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change health condition",
+            "content_type": 8,
+            "codename": "change_healthcondition"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete health condition",
+            "content_type": 8,
+            "codename": "delete_healthcondition"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view health condition",
+            "content_type": 8,
+            "codename": "view_healthcondition"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add species",
+            "content_type": 9,
+            "codename": "add_species"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change species",
+            "content_type": 9,
+            "codename": "change_species"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete species",
+            "content_type": 9,
+            "codename": "delete_species"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view species",
+            "content_type": 9,
+            "codename": "view_species"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add animal",
+            "content_type": 10,
+            "codename": "add_animal"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change animal",
+            "content_type": 10,
+            "codename": "change_animal"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete animal",
+            "content_type": 10,
+            "codename": "delete_animal"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view animal",
+            "content_type": 10,
+            "codename": "view_animal"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add feeding appointment",
+            "content_type": 11,
+            "codename": "add_feedingappointment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change feeding appointment",
+            "content_type": 11,
+            "codename": "change_feedingappointment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete feeding appointment",
+            "content_type": 11,
+            "codename": "delete_feedingappointment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view feeding appointment",
+            "content_type": 11,
+            "codename": "view_feedingappointment"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add diagnosis",
+            "content_type": 12,
+            "codename": "add_diagnosis"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change diagnosis",
+            "content_type": 12,
+            "codename": "change_diagnosis"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete diagnosis",
+            "content_type": 12,
+            "codename": "delete_diagnosis"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view diagnosis",
+            "content_type": 12,
+            "codename": "view_diagnosis"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add feeding action",
+            "content_type": 13,
+            "codename": "add_feedingaction"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change feeding action",
+            "content_type": 13,
+            "codename": "change_feedingaction"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete feeding action",
+            "content_type": 13,
+            "codename": "delete_feedingaction"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view feeding action",
+            "content_type": 13,
+            "codename": "view_feedingaction"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "Zookeeper",
+            "permissions": [
+                37,
+                38,
+                39,
+                40,
+                48,
+                25,
+                26,
+                27,
+                28,
+                49,
+                50,
+                51,
+                52,
+                41,
+                42,
+                43,
+                44,
+                32,
+                33,
+                34,
+                35,
+                36
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "Veterinarian",
+            "permissions": [
+                40,
+                45,
+                46,
+                47,
+                48,
+                28,
+                52,
+                29,
+                30,
+                31,
+                32,
+                36
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$ebsqB56fP905VZoHLFiEtt$86MApFHfLUYJUHATulkNgRW9Gf1FlZiSQTrq0h0d8/Q=",
+            "last_login": "2024-05-04T04:12:51.408Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "a@b.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-04-11T02:58:15.553Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$unkXKCRdsPnHXS7GsUCG3j$NLkyTcVWsIphuJJFDV5hgVRVOQ7Abv9zcTjcmt0Gyl4=",
+            "last_login": "2024-04-12T18:41:08.440Z",
+            "is_superuser": false,
+            "username": "zk123",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-04-12T18:37:22Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$x74Fqz5BIexikNJjjAOyCk$XvcGPHLc38RmIxvOiwcaXAPKjew7SrsEYbqsZRRKGQw=",
+            "last_login": "2024-04-12T19:00:49.169Z",
+            "is_superuser": false,
+            "username": "vet456",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-04-12T19:00:20Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$d2wWfr5GICeQRJ6Zk2VCYR$PwbRd4yDmnXLyho3vjEnDOAOzXbj7psv+gO5pMdyMLc=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "m.noah",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-05-05T05:42:43Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$ttD8PufkUJuYQcEEHMSgEL$yfJ3saTvBjnrIHJETTU6AHyQIlUYE80kpRkVgkTT1iY=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "s.nate",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-05-05T05:44:21Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$q5qelosXFkqYdIK1r4r2HT$ozAs1TJ7UmSymRHPIAqIgl+FAdB+9Wxs/O3DvPozSSk=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "a.emily",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-05-05T05:45:50Z",
+            "groups": [
+                1,
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "zoo",
+            "model": "exhibit"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "zoo",
+            "model": "healthcondition"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "zoo",
+            "model": "species"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "zoo",
+            "model": "animal"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "zoo",
+            "model": "feedingappointment"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "zoo",
+            "model": "diagnosis"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "zoo",
+            "model": "feedingaction"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "gjkbz9fex1q4wfvv2h3matrz5oqsftcb",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pChQplx6b5nIAOMtmogKe3KeHfbpAvdvvf-f6vA6zKGtckcpqwuyqjTL4ucnlJ2kR9c7lWnWpZ5inpP9GGbHmqW1_Vo_w5GbuO2TmjYGmY8e-xddCiRyHRgiBxIBogCIvGGG3TkLCCBdVk6b6j3HarPF8TKNpM:1s36GP:6OVpKc73xlShAQGkxFD_Al2DLL3KQNhlwf0Qgnvyjq8",
+            "expire_date": "2024-05-18T03:40:41.339Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ooktjgfooeptc9mkjkf9p5h72mrfaesv",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pChQplx6b5nIAOMtmogKe3KeHfbpAvdvvf-f6vA6zKGtckcpqwuyqjTL4ucnlJ2kR9c7lWnWpZ5inpP9GGbHmqW1_Vo_w5GbuO2TmjYGmY8e-xddCiRyHRgiBxIBogCIvGGG3TkLCCBdVk6b6j3HarPF8TKNpM:1s36lX:QBbiAKICHUM6qTB8JbQnjbz_C4OTaxYX__Ft8Rk-hWI",
+            "expire_date": "2024-05-18T04:12:51.413Z"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 2,
+        "fields": {
+            "common_name": "Chimpanzee",
+            "scientific_name": "Pan troglodytes"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 3,
+        "fields": {
+            "common_name": "Macaroni penguin",
+            "scientific_name": "Eudyptes chrysolophus"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 4,
+        "fields": {
+            "common_name": "Bear",
+            "scientific_name": "Ursidae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 5,
+        "fields": {
+            "common_name": "Moose",
+            "scientific_name": "Alces alces"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 6,
+        "fields": {
+            "common_name": "Alligator",
+            "scientific_name": "Alligator mississippiensis"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 7,
+        "fields": {
+            "common_name": "Otter",
+            "scientific_name": "Lutrinae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 8,
+        "fields": {
+            "common_name": "Tortoise",
+            "scientific_name": "Testudinidae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 9,
+        "fields": {
+            "common_name": "Gorilla",
+            "scientific_name": "Gorilla"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 10,
+        "fields": {
+            "common_name": "Orangutan",
+            "scientific_name": "Pongo pygmaeus"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 11,
+        "fields": {
+            "common_name": "Tiger",
+            "scientific_name": "Panthera Tigris"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 12,
+        "fields": {
+            "common_name": "Hippo",
+            "scientific_name": "Hippopotamus Amphibius"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 13,
+        "fields": {
+            "common_name": "Bison",
+            "scientific_name": "Bison"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 14,
+        "fields": {
+            "common_name": "Horse",
+            "scientific_name": "Equus caballus"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 15,
+        "fields": {
+            "common_name": "Deer",
+            "scientific_name": "Cervidae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 16,
+        "fields": {
+            "common_name": "Kangaroo",
+            "scientific_name": "Macropodidae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 17,
+        "fields": {
+            "common_name": "Rhino",
+            "scientific_name": "Rhinocerotidae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 18,
+        "fields": {
+            "common_name": "Emu",
+            "scientific_name": "Dromaius Novaehollandiae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 19,
+        "fields": {
+            "common_name": "Snake",
+            "scientific_name": "Serpentes"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 20,
+        "fields": {
+            "common_name": "Turtle",
+            "scientific_name": "Testudines"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 21,
+        "fields": {
+            "common_name": "Frog",
+            "scientific_name": "Anura"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 22,
+        "fields": {
+            "common_name": "Eagle",
+            "scientific_name": "Accipitridae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 23,
+        "fields": {
+            "common_name": "Heron",
+            "scientific_name": "Ardeidae"
+        }
+    },
+    {
+        "model": "zoo.species",
+        "pk": 24,
+        "fields": {
+            "common_name": "Flamingo",
+            "scientific_name": "Phoenicopterus"
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 2,
+        "fields": {
+            "name": "Northern Pine Exhibit",
+            "description": "Grand exhibit that hosts our bears and moose"
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 3,
+        "fields": {
+            "name": "Northern Water Exhibit",
+            "description": "The Northern Water Exhibit houses our aquatic animals with the likes of alligators, otters, and tortoises."
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 4,
+        "fields": {
+            "name": "Central Jungle Exhibit",
+            "description": "The Central Jungle Exhibit holds our primate family with the likes of Chimps, Gorillas, and Orangutans."
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 5,
+        "fields": {
+            "name": "Western Jungle Exhibit",
+            "description": "The Western Jungle Exhibit is home to our cute yet dangerous tigers."
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 6,
+        "fields": {
+            "name": "Southern Swamp Exhibit",
+            "description": "The Southern Swamp Exhibit is home to our hippos."
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 7,
+        "fields": {
+            "name": "Southern Grass land Exhibit",
+            "description": "The Southern Grass land Exhibit is home to our Horses, Deer, and Bison."
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 8,
+        "fields": {
+            "name": "Southern Outback Exhibit",
+            "description": "The Southern Outback Exhibit is home to our Kangaroos, Rhinos, and Emus."
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 9,
+        "fields": {
+            "name": "Eastern Reptile Exhibit",
+            "description": "Our Eastern Reptile Exhibit is home to our Snakes, Turtles, and Frogs."
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 10,
+        "fields": {
+            "name": "Eastern Arctic Exhibit",
+            "description": "Our Eastern Arctic Exhibit is home to our cute and fluffy Penguin family."
+        }
+    },
+    {
+        "model": "zoo.exhibit",
+        "pk": 11,
+        "fields": {
+            "name": "Eastern Arial Exhibit",
+            "description": "Our Eastern Arial Exhibit is home to our bird family with the likes of Eagles, Herons, and Flamingos."
+        }
+    },
+    {
+        "model": "zoo.healthcondition",
+        "pk": 1,
+        "fields": {
+            "name": "Pulmonary arterial hypertension",
+            "description": "A type of high blood pressure that affects arteries in the lungs and in the heart."
+        }
+    },
+    {
+        "model": "zoo.healthcondition",
+        "pk": 2,
+        "fields": {
+            "name": "Rabies",
+            "description": "A viral zoonotic disease that causes progressive and fatal inflammation of the brain and spinal cord."
+        }
+    },
+    {
+        "model": "zoo.healthcondition",
+        "pk": 3,
+        "fields": {
+            "name": "Avian pox",
+            "description": "Wart-like growths on the skin, particularly on unfeathered parts of the body such as the legs, feet, eyelids, base of the beak, and the comb and wattles."
+        }
+    },
+    {
+        "model": "zoo.healthcondition",
+        "pk": 4,
+        "fields": {
+            "name": "Influenza",
+            "description": "A contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs."
+        }
+    },
+    {
+        "model": "zoo.healthcondition",
+        "pk": 5,
+        "fields": {
+            "name": "Salmonella",
+            "description": "A common bacterial disease that affects the intestinal tract."
+        }
+    },
+    {
+        "model": "zoo.healthcondition",
+        "pk": 6,
+        "fields": {
+            "name": "Lumpy skin disease",
+            "description": "A viral disease that affects cattle."
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 3,
+        "fields": {
+            "name": "Ursa",
+            "birth_date": "2019-05-02",
+            "death_date": null,
+            "description": "Ursa is the mother of two cubs. She is a single mom that is working hard to provide for her kids.",
+            "species": 4,
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 4,
+        "fields": {
+            "name": "Ellie",
+            "birth_date": "2024-01-02",
+            "death_date": null,
+            "description": "Ellie is one of two twins and is super playful and loves attention",
+            "species": 4,
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 5,
+        "fields": {
+            "name": "Eli",
+            "birth_date": "2024-01-02",
+            "death_date": null,
+            "description": "Eli Is one of two twins and is quite reserved and enjoys his alone time",
+            "species": 4,
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 6,
+        "fields": {
+            "name": "Buck",
+            "birth_date": "2012-03-12",
+            "death_date": null,
+            "description": "Buck is an old moose and rarely is seen without his best bud Chuck.",
+            "species": 5,
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 7,
+        "fields": {
+            "name": "Chuck",
+            "birth_date": "2014-03-22",
+            "death_date": null,
+            "description": "Chuck is an old moose and rarely is seen without his best bud Buck.",
+            "species": 5,
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 8,
+        "fields": {
+            "name": "Mac",
+            "birth_date": "2022-01-01",
+            "death_date": null,
+            "description": "Mac is a lucky otter that was born with only one eye but has been able to survive and is a new years baby.",
+            "species": 7,
+            "exhibit": 3
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 9,
+        "fields": {
+            "name": "Rocko",
+            "birth_date": "2020-05-22",
+            "death_date": null,
+            "description": "Rocko is a extremely fat otter who loves to do tricks for guests that give him food.",
+            "species": 7,
+            "exhibit": 3
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 10,
+        "fields": {
+            "name": "Phil",
+            "birth_date": "2021-02-02",
+            "death_date": null,
+            "description": "Phil loves to hangout in the sun and enjoys spending more time out of water then in it.",
+            "species": 7,
+            "exhibit": 3
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 11,
+        "fields": {
+            "name": "Randolf",
+            "birth_date": "2024-05-02",
+            "death_date": null,
+            "description": "Randolf is one of our extremely sociable alligators who loves shiny items that guest will bring and show.",
+            "species": 6,
+            "exhibit": 3
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 12,
+        "fields": {
+            "name": "Kelly",
+            "birth_date": "2024-05-02",
+            "death_date": null,
+            "description": "Kelly is our biggest pound for pound alligator our zoo has ever had and is a staggering 17 feet long. She however brings in many guests due to her massive size.",
+            "species": 6,
+            "exhibit": 3
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 13,
+        "fields": {
+            "name": "Premi",
+            "birth_date": "2022-05-02",
+            "death_date": null,
+            "description": "Premi is our baby chimp who love to play with new toys that we buy.",
+            "species": 2,
+            "exhibit": 4
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 14,
+        "fields": {
+            "name": "Silver",
+            "birth_date": "2011-11-17",
+            "death_date": null,
+            "description": "Silver is our Silver Back gorilla and has taken leadership of the primates, he is also very slow to anger and makes a great leader.",
+            "species": 9,
+            "exhibit": 4
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 15,
+        "fields": {
+            "name": "Bolo",
+            "birth_date": "1993-05-02",
+            "death_date": null,
+            "description": "Bolo is our oldest animal here at the zoo and is a very wise primate who will be seen to use tools such as saws and hammers when we give them to him.",
+            "species": 10,
+            "exhibit": 4
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 16,
+        "fields": {
+            "name": "Mango",
+            "birth_date": "2014-05-02",
+            "death_date": null,
+            "description": "Mango is the mother of Premi and is a very reserved chimp who follow Silvers lead while mothering her baby.",
+            "species": 2,
+            "exhibit": 4
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 17,
+        "fields": {
+            "name": "Stripes",
+            "birth_date": "2017-02-12",
+            "death_date": null,
+            "description": "Stripes is one of our great tigers and loves nothing more than a good back scratch... and live prey.",
+            "species": 11,
+            "exhibit": 5
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 18,
+        "fields": {
+            "name": "Pickles",
+            "birth_date": "2015-12-02",
+            "death_date": null,
+            "description": "Pickles is our tiger who is the mate of Stripes and basically follows her lead.",
+            "species": 11,
+            "exhibit": 5
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 19,
+        "fields": {
+            "name": "Rambo",
+            "birth_date": "2004-05-22",
+            "death_date": null,
+            "description": "Rambo is our heaviest animal in the zoo weighting in at a staggering 834 pounds but still looks great for his weight.",
+            "species": 12,
+            "exhibit": 6
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 20,
+        "fields": {
+            "name": "Mark",
+            "birth_date": "2011-11-11",
+            "death_date": null,
+            "description": "Mark is one of our bison and is often seen sitting in the corner of his exhibit enjoying the shade.",
+            "species": 13,
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 21,
+        "fields": {
+            "name": "Ello",
+            "birth_date": "2012-05-02",
+            "death_date": null,
+            "description": "Ello is one of our bison who is super sociable and is often seen close up to guests... watch out for his tounge!",
+            "species": 13,
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 22,
+        "fields": {
+            "name": "Rapper",
+            "birth_date": "2014-04-12",
+            "death_date": null,
+            "description": "Rapper is our horse and one of the main attractions at the zoo. Guests can come and take ride on rapper who enjoys going on runs with guests.",
+            "species": 14,
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 23,
+        "fields": {
+            "name": "Nami",
+            "birth_date": "2021-07-07",
+            "death_date": null,
+            "description": "Nami is one of our deer who enjoys hanging out with her two brothers Botsa and Chile.",
+            "species": 15,
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 24,
+        "fields": {
+            "name": "Botsa",
+            "birth_date": "2020-06-29",
+            "death_date": null,
+            "description": "Botsa is one of our deer who is constantly annoyed at nami but will often be seen watching out for her when she is eating or sleeping.",
+            "species": 15,
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 25,
+        "fields": {
+            "name": "Chile",
+            "birth_date": "2002-02-22",
+            "death_date": null,
+            "description": "Chile is one of our deer and he is just there, nothing much going on in this ones head.",
+            "species": 15,
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 26,
+        "fields": {
+            "name": "Kicker",
+            "birth_date": "2011-05-02",
+            "death_date": null,
+            "description": "Kicker is one of our Kangaroos and is often seen play fighting with his brother Sudan.",
+            "species": 16,
+            "exhibit": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 27,
+        "fields": {
+            "name": "Sudan",
+            "birth_date": "2013-02-03",
+            "death_date": null,
+            "description": "Sudan is one of our Kangaroos and is often seen play fighting with his brother Kicker.",
+            "species": 16,
+            "exhibit": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 28,
+        "fields": {
+            "name": "Rhinosaur",
+            "birth_date": "2003-11-17",
+            "death_date": null,
+            "description": "Rhinosaur is one of our famous animals at the zoo. We were asked to take him in after he had flipped a car full of poachers taking all of them out in South Sudan.",
+            "species": 17,
+            "exhibit": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 29,
+        "fields": {
+            "name": "Ekans",
+            "birth_date": "2022-01-02",
+            "death_date": null,
+            "description": "Ekans is one of our many emus and is often seen running around his exhibit to let out all his energy",
+            "species": 18,
+            "exhibit": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 30,
+        "fields": {
+            "name": "Ali",
+            "birth_date": "2013-12-22",
+            "death_date": null,
+            "description": "Ali is one of our many emus and is often seen running beside Ekans trying to calm him down.",
+            "species": 18,
+            "exhibit": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 31,
+        "fields": {
+            "name": "Risiki",
+            "birth_date": "2021-06-04",
+            "death_date": null,
+            "description": "Risiki is one of our many emus and is often seen hanging out with our rhino.",
+            "species": 18,
+            "exhibit": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 32,
+        "fields": {
+            "name": "Slither",
+            "birth_date": "2022-07-11",
+            "death_date": null,
+            "description": "Slither is one of our snakes and has the most venoms bite in the entire zoo. A human would last 15 min before exploding after a bite from slither.",
+            "species": 19,
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 33,
+        "fields": {
+            "name": "Skal",
+            "birth_date": "2024-10-23",
+            "death_date": null,
+            "description": "Skal is one of our snakes and is often seen hanging out in his toy pineapple house.",
+            "species": 19,
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 34,
+        "fields": {
+            "name": "Bubbles",
+            "birth_date": "2000-01-15",
+            "death_date": null,
+            "description": "Bubbles is one of our Turtles and is seen often creating bubbles in his tank.",
+            "species": 20,
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 35,
+        "fields": {
+            "name": "Jupiter",
+            "birth_date": "2015-08-12",
+            "death_date": null,
+            "description": "Jupiter is one of our frogs who is very energetic and often jumping onto different rocks in his cage.",
+            "species": 21,
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 36,
+        "fields": {
+            "name": "Marcus",
+            "birth_date": "2011-11-11",
+            "death_date": null,
+            "description": "Marcus is one of our frogs who is often seen upside down hanging onto the roof of his enclosure.",
+            "species": 21,
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 37,
+        "fields": {
+            "name": "Milly",
+            "birth_date": "2021-08-08",
+            "death_date": null,
+            "description": "Milly is One of our penguins who is often seen collecting rocks and sorting them by size.",
+            "species": 3,
+            "exhibit": 10
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 38,
+        "fields": {
+            "name": "Jill",
+            "birth_date": "2007-09-09",
+            "death_date": null,
+            "description": "Jill is one of our penguins who loves to eat macaroni mor than anything in the world.",
+            "species": 3,
+            "exhibit": 10
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 39,
+        "fields": {
+            "name": "Ember",
+            "birth_date": "2011-07-01",
+            "death_date": null,
+            "description": "Ember is our Eagle and the most popular of our bird family. Her wingspan is a staggering 12 feet long.",
+            "species": 22,
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 40,
+        "fields": {
+            "name": "Blue",
+            "birth_date": "2022-11-03",
+            "death_date": null,
+            "description": "Blue is one of our herons and gets his name by the navy blue feathers that fill his back up.",
+            "species": 23,
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 41,
+        "fields": {
+            "name": "Purple",
+            "birth_date": "2004-12-06",
+            "death_date": null,
+            "description": "Purple is one of our herons and gets his name from his favorite color which is purple and is often seen interacting with guest who wear it.",
+            "species": 23,
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 42,
+        "fields": {
+            "name": "Pinky",
+            "birth_date": "2014-12-26",
+            "death_date": null,
+            "description": "Pinky is one of our flamingos and is just pink.",
+            "species": 24,
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 2,
+        "fields": {
+            "date": "2024-05-02",
+            "treatment_status": "t",
+            "animal": 3,
+            "health_condition": 1
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 3,
+        "fields": {
+            "date": "2024-04-11",
+            "treatment_status": "c",
+            "animal": 8,
+            "health_condition": 2
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 4,
+        "fields": {
+            "date": "2024-04-18",
+            "treatment_status": "u",
+            "animal": 11,
+            "health_condition": 4
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 5,
+        "fields": {
+            "date": "2024-04-10",
+            "treatment_status": "t",
+            "animal": 33,
+            "health_condition": 6
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 6,
+        "fields": {
+            "date": "2024-03-13",
+            "treatment_status": "t",
+            "animal": 42,
+            "health_condition": 3
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 7,
+        "fields": {
+            "date": "2024-03-12",
+            "treatment_status": "u",
+            "animal": 30,
+            "health_condition": 3
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 8,
+        "fields": {
+            "date": "2024-02-14",
+            "treatment_status": "c",
+            "animal": 14,
+            "health_condition": 2
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 9,
+        "fields": {
+            "date": "2024-04-11",
+            "treatment_status": "t",
+            "animal": 36,
+            "health_condition": 5
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 10,
+        "fields": {
+            "date": "2024-04-30",
+            "treatment_status": "u",
+            "animal": 19,
+            "health_condition": 1
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 11,
+        "fields": {
+            "date": "2024-03-11",
+            "treatment_status": "t",
+            "animal": 6,
+            "health_condition": 6
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 12,
+        "fields": {
+            "date": "2024-02-12",
+            "treatment_status": "t",
+            "animal": 27,
+            "health_condition": 4
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 13,
+        "fields": {
+            "date": "2024-02-11",
+            "treatment_status": "t",
+            "animal": 4,
+            "health_condition": 1
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 14,
+        "fields": {
+            "date": "2023-12-19",
+            "treatment_status": "t",
+            "animal": 12,
+            "health_condition": 4
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 15,
+        "fields": {
+            "date": "2024-04-25",
+            "treatment_status": "t",
+            "animal": 39,
+            "health_condition": 3
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 16,
+        "fields": {
+            "date": "2024-01-14",
+            "treatment_status": "u",
+            "animal": 24,
+            "health_condition": 1
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 17,
+        "fields": {
+            "date": "2024-01-20",
+            "treatment_status": "c",
+            "animal": 34,
+            "health_condition": 2
+        }
+    },
+    {
+        "model": "zoo.diagnosis",
+        "pk": 18,
+        "fields": {
+            "date": "2024-05-04",
+            "treatment_status": "u",
+            "animal": 42,
+            "health_condition": 4
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 1,
+        "fields": {
+            "day": 0,
+            "time": "08:00:00",
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 2,
+        "fields": {
+            "day": 0,
+            "time": "12:00:00",
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 3,
+        "fields": {
+            "day": 0,
+            "time": "20:00:00",
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 4,
+        "fields": {
+            "day": 2,
+            "time": "06:00:00",
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 5,
+        "fields": {
+            "day": 2,
+            "time": "12:00:00",
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 6,
+        "fields": {
+            "day": 2,
+            "time": "18:00:00",
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 7,
+        "fields": {
+            "day": 4,
+            "time": "12:00:00",
+            "exhibit": 2
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 8,
+        "fields": {
+            "day": 1,
+            "time": "12:00:00",
+            "exhibit": 3
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 9,
+        "fields": {
+            "day": 3,
+            "time": "12:00:00",
+            "exhibit": 3
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 10,
+        "fields": {
+            "day": 1,
+            "time": "18:00:00",
+            "exhibit": 4
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 11,
+        "fields": {
+            "day": 3,
+            "time": "18:00:00",
+            "exhibit": 4
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 12,
+        "fields": {
+            "day": 5,
+            "time": "18:00:00",
+            "exhibit": 4
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 13,
+        "fields": {
+            "day": 0,
+            "time": "18:00:00",
+            "exhibit": 5
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 14,
+        "fields": {
+            "day": 2,
+            "time": "18:00:00",
+            "exhibit": 5
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 15,
+        "fields": {
+            "day": 4,
+            "time": "18:00:00",
+            "exhibit": 5
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 16,
+        "fields": {
+            "day": 6,
+            "time": "18:00:00",
+            "exhibit": 5
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 17,
+        "fields": {
+            "day": 0,
+            "time": "06:00:00",
+            "exhibit": 6
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 18,
+        "fields": {
+            "day": 3,
+            "time": "12:00:00",
+            "exhibit": 6
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 19,
+        "fields": {
+            "day": 6,
+            "time": "18:00:00",
+            "exhibit": 6
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 20,
+        "fields": {
+            "day": 0,
+            "time": "12:00:00",
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 21,
+        "fields": {
+            "day": 1,
+            "time": "12:00:00",
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 22,
+        "fields": {
+            "day": 2,
+            "time": "12:00:00",
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 23,
+        "fields": {
+            "day": 3,
+            "time": "12:00:00",
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 24,
+        "fields": {
+            "day": 4,
+            "time": "12:00:00",
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 25,
+        "fields": {
+            "day": 5,
+            "time": "12:00:00",
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 26,
+        "fields": {
+            "day": 6,
+            "time": "12:00:00",
+            "exhibit": 7
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 27,
+        "fields": {
+            "day": 0,
+            "time": "18:00:00",
+            "exhibit": 8
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 28,
+        "fields": {
+            "day": 4,
+            "time": "18:00:00",
+            "exhibit": 8
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 29,
+        "fields": {
+            "day": 0,
+            "time": "06:00:00",
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 30,
+        "fields": {
+            "day": 3,
+            "time": "06:00:00",
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 31,
+        "fields": {
+            "day": 3,
+            "time": "18:00:00",
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 32,
+        "fields": {
+            "day": 6,
+            "time": "06:00:00",
+            "exhibit": 9
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 33,
+        "fields": {
+            "day": 0,
+            "time": "06:00:00",
+            "exhibit": 10
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 34,
+        "fields": {
+            "day": 2,
+            "time": "06:00:00",
+            "exhibit": 10
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 35,
+        "fields": {
+            "day": 4,
+            "time": "18:00:00",
+            "exhibit": 10
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 36,
+        "fields": {
+            "day": 2,
+            "time": "12:00:00",
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 37,
+        "fields": {
+            "day": 2,
+            "time": "18:00:00",
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 38,
+        "fields": {
+            "day": 5,
+            "time": "18:00:00",
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 39,
+        "fields": {
+            "day": 0,
+            "time": "06:00:00",
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.feedingappointment",
+        "pk": 40,
+        "fields": {
+            "day": 0,
+            "time": "18:00:00",
+            "exhibit": 11
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 1,
+        "fields": {
+            "date_time": "2024-05-06T07:55:31Z",
+            "exhibit": 2,
+            "staff": [
+                1,
+                2,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 2,
+        "fields": {
+            "date_time": "2024-05-06T12:00:00Z",
+            "exhibit": 2,
+            "staff": [
+                3,
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 3,
+        "fields": {
+            "date_time": "2024-05-06T18:00:00Z",
+            "exhibit": 2,
+            "staff": [
+                2,
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 4,
+        "fields": {
+            "date_time": "2024-05-08T06:01:00Z",
+            "exhibit": 2,
+            "staff": [
+                4,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 5,
+        "fields": {
+            "date_time": "2024-05-08T12:00:00Z",
+            "exhibit": 2,
+            "staff": [
+                2,
+                4,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 6,
+        "fields": {
+            "date_time": "2024-05-08T18:00:00Z",
+            "exhibit": 2,
+            "staff": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 7,
+        "fields": {
+            "date_time": "2024-05-10T12:00:00Z",
+            "exhibit": 2,
+            "staff": [
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 8,
+        "fields": {
+            "date_time": "2024-05-05T12:05:05Z",
+            "exhibit": 3,
+            "staff": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 9,
+        "fields": {
+            "date_time": "2024-05-09T12:00:01Z",
+            "exhibit": 3,
+            "staff": [
+                2,
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 10,
+        "fields": {
+            "date_time": "2024-05-07T18:03:33Z",
+            "exhibit": 4,
+            "staff": [
+                2,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 11,
+        "fields": {
+            "date_time": "2024-05-09T12:10:00Z",
+            "exhibit": 4,
+            "staff": [
+                4,
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 12,
+        "fields": {
+            "date_time": "2024-05-11T17:52:00Z",
+            "exhibit": 4,
+            "staff": [
+                2,
+                4,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 14,
+        "fields": {
+            "date_time": "2024-05-06T18:00:01Z",
+            "exhibit": 5,
+            "staff": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 15,
+        "fields": {
+            "date_time": "2024-05-08T18:00:02Z",
+            "exhibit": 5,
+            "staff": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 16,
+        "fields": {
+            "date_time": "2024-05-10T18:00:03Z",
+            "exhibit": 5,
+            "staff": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 17,
+        "fields": {
+            "date_time": "2024-05-11T18:00:04Z",
+            "exhibit": 5,
+            "staff": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 18,
+        "fields": {
+            "date_time": "2024-05-05T12:07:00Z",
+            "exhibit": 7,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 19,
+        "fields": {
+            "date_time": "2024-05-06T12:00:06Z",
+            "exhibit": 7,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 20,
+        "fields": {
+            "date_time": "2024-05-07T12:00:05Z",
+            "exhibit": 7,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 21,
+        "fields": {
+            "date_time": "2024-05-08T12:00:04Z",
+            "exhibit": 7,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 22,
+        "fields": {
+            "date_time": "2024-05-09T12:03:00Z",
+            "exhibit": 7,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 23,
+        "fields": {
+            "date_time": "2024-05-10T12:10:00Z",
+            "exhibit": 7,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 24,
+        "fields": {
+            "date_time": "2024-05-11T12:01:00Z",
+            "exhibit": 7,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 25,
+        "fields": {
+            "date_time": "2024-05-06T18:00:00Z",
+            "exhibit": 8,
+            "staff": [
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 26,
+        "fields": {
+            "date_time": "2024-05-10T18:00:00Z",
+            "exhibit": 8,
+            "staff": [
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 27,
+        "fields": {
+            "date_time": "2024-05-06T06:09:00Z",
+            "exhibit": 9,
+            "staff": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 28,
+        "fields": {
+            "date_time": "2024-05-09T06:06:00Z",
+            "exhibit": 9,
+            "staff": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 29,
+        "fields": {
+            "date_time": "2024-05-09T18:03:00Z",
+            "exhibit": 9,
+            "staff": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 30,
+        "fields": {
+            "date_time": "2024-05-05T18:00:00Z",
+            "exhibit": 9,
+            "staff": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 31,
+        "fields": {
+            "date_time": "2024-05-08T12:00:00Z",
+            "exhibit": 11,
+            "staff": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 32,
+        "fields": {
+            "date_time": "2024-05-08T18:00:00Z",
+            "exhibit": 11,
+            "staff": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 33,
+        "fields": {
+            "date_time": "2024-05-11T18:00:00Z",
+            "exhibit": 11,
+            "staff": [
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 34,
+        "fields": {
+            "date_time": "2024-05-06T06:00:00Z",
+            "exhibit": 11,
+            "staff": [
+                2,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 35,
+        "fields": {
+            "date_time": "2024-05-06T18:00:00Z",
+            "exhibit": 11,
+            "staff": [
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 36,
+        "fields": {
+            "date_time": "2024-05-05T06:00:00Z",
+            "exhibit": 10,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 37,
+        "fields": {
+            "date_time": "2024-05-08T06:00:00Z",
+            "exhibit": 10,
+            "staff": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "zoo.feedingaction",
+        "pk": 38,
+        "fields": {
+            "date_time": "2024-05-10T06:00:00Z",
+            "exhibit": 10,
+            "staff": [
+                6
+            ]
+        }
+    }
+]

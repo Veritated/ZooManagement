@@ -12,7 +12,12 @@
     <h3>{{exhibit_name}}</h3>
 
     {% for action in exhibit_data.actions %}
-    <p>{{action.formatted_date}} @ {{action.formatted_time}}</p>
+    <p>{{action.formatted_date}} @ {{action.formatted_time}}
+      ({% for user in action.staff.all %}
+      {{user}}
+      {% if not forloop.last %}, {% endif %}
+      {% endfor %})
+    </p>
     {% endfor %}
   </div>
 
