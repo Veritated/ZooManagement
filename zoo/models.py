@@ -1,5 +1,6 @@
 import calendar
 from datetime import datetime, time
+from typing import List
 
 from django.db import models
 from django.contrib.auth.models import User

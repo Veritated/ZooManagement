@@ -19,6 +19,8 @@ def index(request: HttpRequest) -> HttpResponse:
     data = {}
     for exhibit in Exhibit.objects.all():
         appointments_today = FeedingAppointment.objects.filter(exhibit=exhibit).filter(day=datetime.now().weekday())
+        if appointments_today.count() < 1:
+            continue
         appointments_today = appointments_today.order_by('time')
         actions_today = FeedingAction.objects.filter(exhibit=exhibit).filter(date_time__date=datetime.today())
         
@@ -53,8 +55,9 @@ def index(request: HttpRequest) -> HttpResponse:
 def view_feeding_actions(request: HttpRequest) -> HttpResponse:
     data = {}
     for exhibit in Exhibit.objects.all():
+        actions = FeedingAction.objects.filter(exhibit=exhibit).order_by('date_time')
         data[exhibit.name] = {
-            'actions': FeedingAction.objects.filter(exhibit=exhibit)
+            'actions': actions
         }
         
     return render(request, 'food_management/all_feeding_actions.html', context={'data': data})
@@ -76,7 +79,7 @@ def view_feeding_appointments(request: HttpRequest) -> HttpResponse:
     data = {}
     for exhibit in Exhibit.objects.all():
         data[exhibit.name] = {
-            'appointments': FeedingAppointment.objects.filter(exhibit=exhibit)
+            'appointments': FeedingAppointment.objects.filter(exhibit=exhibit).order_by('day')
         }
 
     return render(request, 'food_management/all_feeding_appointments.html', context={'data': data})
