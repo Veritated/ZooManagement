@@ -10,8 +10,7 @@ from zoo.forms import *
 
 APPOINTMENT_GRACE_PERIOD = timedelta(minutes=10)
 
-# Create your views here.
-
+@permission_required('zoo.view_feedingappointment', raise_exception=True)
 def index(request: HttpRequest) -> HttpResponse:
     if not request.user.is_authenticated:
         return redirect('index')
@@ -62,6 +61,7 @@ def view_feeding_actions(request: HttpRequest) -> HttpResponse:
         
     return render(request, 'food_management/all_feeding_actions.html', context={'data': data})
 
+@permission_required('zoo.add_feedingaction', raise_exception=True)
 def add_feeding_action(request: HttpRequest) -> HttpResponse:
     if not request.user.is_authenticated:
         return redirect('index')
@@ -84,6 +84,7 @@ def view_feeding_appointments(request: HttpRequest) -> HttpResponse:
 
     return render(request, 'food_management/all_feeding_appointments.html', context={'data': data})
 
+@permission_required('zoo.add_feedingappointment', raise_exception=True)
 def add_feeding_appointment(request: HttpRequest) -> HttpResponse:
     if not request.user.is_authenticated:
         return redirect('index')

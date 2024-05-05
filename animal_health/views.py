@@ -1,11 +1,13 @@
 
 from django.shortcuts import render, redirect
 from django.http import HttpRequest, HttpResponse
-from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
+from django.contrib.auth.mixins import PermissionRequiredMixin
+from django.contrib.auth.decorators import permission_required
 
 from zoo.models import HealthCondition, Diagnosis, Animal
 from .forms import *
 
+@permission_required('zoo.view_diagnosis', raise_exception=True)
 def index(request: HttpRequest) -> HttpResponse:
     data = {}
     for animal in Animal.objects.all():
@@ -16,6 +18,7 @@ def index(request: HttpRequest) -> HttpResponse:
 
     return render(request, 'animal_health/index.html', context={'data': data})
 
+@permission_required('zoo.view_healthcondition', raise_exception=True)
 def view_conditions(request: HttpRequest) -> HttpResponse:
     conditions = {}
     for condition in HealthCondition.objects.all():
@@ -25,6 +28,7 @@ def view_conditions(request: HttpRequest) -> HttpResponse:
 
     return render(request, 'animal_health/all_conditions.html', context={'conditions': conditions})
 
+@permission_required('zoo.add_healthcondition', raise_exception=True)
 def add_condition(request: HttpRequest) -> HttpResponse:
     if not request.user.is_authenticated:
         return redirect('index')
@@ -37,6 +41,7 @@ def add_condition(request: HttpRequest) -> HttpResponse:
 
     return render(request, 'animal_health/add_condition.html', {'form' : form})
 
+@permission_required('zoo.view_diagnosis', raise_exception=True)
 def view_diagnoses(request: HttpRequest) -> HttpResponse:
     diagnoses = {}
     for animal in Animal.objects.all():
@@ -48,6 +53,7 @@ def view_diagnoses(request: HttpRequest) -> HttpResponse:
 
     return render(request, 'animal_health/all_diagnoses.html', context={'diagnoses': diagnoses})
 
+@permission_required('zoo.add_diagnosis', raise_exception=True)
 def add_diagnoses(request: HttpRequest) -> HttpResponse:
     if not request.user.is_authenticated:
         return redirect('index')

@@ -2200,7 +2200,7 @@
         "model": "admin.logentry",
         "pk": 170,
         "fields": {
-            "action_time": "2024-05-05T06:02:36.000Z",
+            "action_time": "2024-05-05T06:02:36Z",
             "user": 1,
             "content_type": 13,
             "object_id": "13",
@@ -2649,6 +2649,58 @@
             "object_repr": "Eastern Arctic Exhibit | May 10, 2024 6:00 AM",
             "action_flag": 1,
             "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 205,
+        "fields": {
+            "action_time": "2024-05-05T06:31:53.650Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "s.nate",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 206,
+        "fields": {
+            "action_time": "2024-05-05T06:39:02.467Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Zookeeper",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 207,
+        "fields": {
+            "action_time": "2024-05-05T06:41:52.591Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "Veterinarian",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 208,
+        "fields": {
+            "action_time": "2024-05-05T06:42:08.885Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Zookeeper",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
         }
     },
     {
@@ -3129,24 +3181,22 @@
                 38,
                 39,
                 40,
-                48,
-                25,
-                26,
-                27,
-                28,
-                49,
-                50,
-                51,
-                52,
                 41,
                 42,
                 43,
                 44,
-                32,
+                49,
+                50,
+                51,
+                52,
                 33,
                 34,
                 35,
-                36
+                36,
+                25,
+                26,
+                27,
+                28
             ]
         }
     },
@@ -3157,16 +3207,14 @@
             "name": "Veterinarian",
             "permissions": [
                 40,
-                45,
-                46,
-                47,
-                48,
-                28,
-                52,
                 29,
                 30,
                 31,
                 32,
+                45,
+                46,
+                47,
+                48,
                 36
             ]
         }
@@ -3176,7 +3224,7 @@
         "pk": 1,
         "fields": {
             "password": "pbkdf2_sha256$720000$ebsqB56fP905VZoHLFiEtt$86MApFHfLUYJUHATulkNgRW9Gf1FlZiSQTrq0h0d8/Q=",
-            "last_login": "2024-05-04T04:12:51.408Z",
+            "last_login": "2024-05-05T06:39:40.511Z",
             "is_superuser": true,
             "username": "admin",
             "first_name": "",
@@ -3234,7 +3282,7 @@
         "pk": 4,
         "fields": {
             "password": "pbkdf2_sha256$720000$d2wWfr5GICeQRJ6Zk2VCYR$PwbRd4yDmnXLyho3vjEnDOAOzXbj7psv+gO5pMdyMLc=",
-            "last_login": null,
+            "last_login": "2024-05-05T06:42:24.706Z",
             "is_superuser": false,
             "username": "m.noah",
             "first_name": "",
@@ -3254,7 +3302,7 @@
         "pk": 5,
         "fields": {
             "password": "pbkdf2_sha256$720000$ttD8PufkUJuYQcEEHMSgEL$yfJ3saTvBjnrIHJETTU6AHyQIlUYE80kpRkVgkTT1iY=",
-            "last_login": null,
+            "last_login": "2024-05-05T06:32:14.184Z",
             "is_superuser": false,
             "username": "s.nate",
             "first_name": "",
@@ -3264,7 +3312,7 @@
             "is_active": true,
             "date_joined": "2024-05-05T05:44:21Z",
             "groups": [
-                1
+                2
             ],
             "user_permissions": []
         }
@@ -3274,7 +3322,7 @@
         "pk": 6,
         "fields": {
             "password": "pbkdf2_sha256$720000$q5qelosXFkqYdIK1r4r2HT$ozAs1TJ7UmSymRHPIAqIgl+FAdB+9Wxs/O3DvPozSSk=",
-            "last_login": null,
+            "last_login": "2024-05-05T06:35:53.351Z",
             "is_superuser": false,
             "username": "a.emily",
             "first_name": "",
@@ -3343,7 +3391,7 @@
         "pk": 7,
         "fields": {
             "app_label": "zoo",
-            "model": "exhibit"
+            "model": "species"
         }
     },
     {
@@ -3351,7 +3399,7 @@
         "pk": 8,
         "fields": {
             "app_label": "zoo",
-            "model": "healthcondition"
+            "model": "exhibit"
         }
     },
     {
@@ -3359,7 +3407,7 @@
         "pk": 9,
         "fields": {
             "app_label": "zoo",
-            "model": "species"
+            "model": "healthcondition"
         }
     },
     {
@@ -3375,7 +3423,7 @@
         "pk": 11,
         "fields": {
             "app_label": "zoo",
-            "model": "feedingappointment"
+            "model": "diagnosis"
         }
     },
     {
@@ -3383,7 +3431,7 @@
         "pk": 12,
         "fields": {
             "app_label": "zoo",
-            "model": "diagnosis"
+            "model": "feedingappointment"
         }
     },
     {
@@ -3392,6 +3440,14 @@
         "fields": {
             "app_label": "zoo",
             "model": "feedingaction"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "8dylejxhlcpy8d6cbhn1tblrgqyfu98t",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlmJP-yGkj5nsNbeNQ6gWIqTCnF3iJQC2jcz76UCbWsJW5MlTKwuyqnT7xYpPWTeAd9pvlWd6rwuU9S7og_a9FhZntfD_Tso1Mq37s3AKJAA3QAOMrHJNjORJBLvYgciHlIk9OKR8dxZ1yOaHtkCi1HvD_7hOFA:1s3VZo:_FK-Upsn2H1N77V9exMHd0wTKDkbAkT_KqIvGuKxvt0",
+            "expire_date": "2024-05-19T06:42:24.711Z"
         }
     },
     {
