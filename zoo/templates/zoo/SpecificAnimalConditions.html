@@ -5,15 +5,16 @@
     <h4>{{ animal.description }}</h4>
     <h5>Birth Date: {{animal.birth_date}}, Species: {{ animal.species }}</h5>
     <h5>Find {{ animal.name }} in the <a href="{% url 'SpecificExhibit' animal.exhibit.name%}">{{ animal.exhibit }}</a></h5>
-
-    <br>
-    <h3>{{animal.name}}'s Health Conditions:</h3>
-    <ul>
-    {% for diag in diagnosis %}
-        <li><h4>Condition: {{diag.health_condition}}</h4>
-            <h5>Diagnosis Date: {{diag.date}}</h5>
-            <h5>Treatment Status: {{diag.treatment_status}}</h5>         
-        </li>
-    {% endfor %}
+    {% if user.is_authenticated %}
+        <br>
+        <h3>{{animal.name}}'s Health Conditions:</h3>
+        <ul>
+        {% for diag in diagnosis %}
+            <li><h4>Condition: {{diag.health_condition}}</h4>
+                <h5>Diagnosis Date: {{diag.date}}</h5>
+                <h5>Treatment Status: {{diag.treatment_status}}</h5>         
+            </li>
+        {% endfor %}
     </ul>
+    {% endif %}
 {% endblock %}
